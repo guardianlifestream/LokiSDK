@@ -1,0 +1,4 @@
+framework module LokiSDKExtention {
+  header "LokiSDKExtention-Swift.h"
+  requires objc
+}

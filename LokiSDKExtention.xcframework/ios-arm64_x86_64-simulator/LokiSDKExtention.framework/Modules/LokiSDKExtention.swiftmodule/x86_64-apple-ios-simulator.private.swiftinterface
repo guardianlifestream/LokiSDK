@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios15.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LokiSDKExtention
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+import Foundation
+import Swift
+import Swinject
+import _Concurrency
+import _StringProcessing
+public struct Battery : Swift.Codable {
+  public let isCharging: Swift.Bool?
+  public let remainingCharge: Swift.Int?
+  public init(isCharging: Swift.Bool?, remainingCharge: Swift.Int?)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Coordinates : Swift.Codable {
+  public let latitude: Swift.Double?
+  public let longitude: Swift.Double?
+  public init(latitude: Swift.Double?, longitude: Swift.Double?)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum AppMode : Swift.Int16, Swift.Codable {
+  case foreground
+  case background
+  case terminated
+  case locationpush
+  public init?(rawValue: Swift.Int16)
+  public typealias RawValue = Swift.Int16
+  public var rawValue: Swift.Int16 {
+    get
+  }
+}
+public struct SendLocationRequest : Swift.Codable {
+  public let clientId: Swift.String
+  public let userId: Swift.String
+  public let deviceId: Swift.String
+  public let coordinates: LokiSDKExtention.Coordinates?
+  public let recordedAtUTC: Foundation.Date?
+  public let altitude: Swift.Double?
+  public let verticalAccuracy: Swift.Double?
+  public let horizontalAccuracy: Swift.Double?
+  public let sdkVersion: Swift.String?
+  public let speed: Swift.Double?
+  public let battery: LokiSDKExtention.Battery?
+  public let headingDirection: Swift.Double?
+  public let activity: Swift.String?
+  public let isSimulated: Swift.Bool
+  public let appMode: LokiSDKExtention.AppMode
+  public init(clientId: Swift.String, userId: Swift.String, deviceId: Swift.String, coordinates: LokiSDKExtention.Coordinates?, recordedAtUTC: Foundation.Date?, altitude: Swift.Double?, verticalAccuracy: Swift.Double?, horizontalAccuracy: Swift.Double?, sdkVersion: Swift.String?, speed: Swift.Double?, battery: LokiSDKExtention.Battery?, headingDirection: Swift.Double?, activity: Swift.String?, isSimulated: Swift.Bool, appMode: LokiSDKExtention.AppMode)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension LokiSDKExtention.AppMode : Swift.Equatable {}
+extension LokiSDKExtention.AppMode : Swift.Hashable {}
+extension LokiSDKExtention.AppMode : Swift.RawRepresentable {}

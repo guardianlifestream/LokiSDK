@@ -1,0 +1,2569 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Battery",
+        "printedName": "Battery",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isCharging",
+            "printedName": "isCharging",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention7BatteryV10isChargingSbSgvp",
+            "mangledName": "$s16LokiSDKExtention7BatteryV10isChargingSbSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention7BatteryV10isChargingSbSgvg",
+                "mangledName": "$s16LokiSDKExtention7BatteryV10isChargingSbSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remainingCharge",
+            "printedName": "remainingCharge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention7BatteryV15remainingChargeSiSgvp",
+            "mangledName": "$s16LokiSDKExtention7BatteryV15remainingChargeSiSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention7BatteryV15remainingChargeSiSgvg",
+                "mangledName": "$s16LokiSDKExtention7BatteryV15remainingChargeSiSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isCharging:remainingCharge:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Battery",
+                "printedName": "LokiSDKExtention.Battery",
+                "usr": "s:16LokiSDKExtention7BatteryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention7BatteryV10isCharging15remainingChargeACSbSg_SiSgtcfc",
+            "mangledName": "$s16LokiSDKExtention7BatteryV10isCharging15remainingChargeACSbSg_SiSgtcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Battery",
+                "printedName": "LokiSDKExtention.Battery",
+                "usr": "s:16LokiSDKExtention7BatteryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention7BatteryV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16LokiSDKExtention7BatteryV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention7BatteryV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16LokiSDKExtention7BatteryV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LokiSDKExtention7BatteryV",
+        "mangledName": "$s16LokiSDKExtention7BatteryV",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Coordinates",
+        "printedName": "Coordinates",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention11CoordinatesV8latitudeSdSgvp",
+            "mangledName": "$s16LokiSDKExtention11CoordinatesV8latitudeSdSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention11CoordinatesV8latitudeSdSgvg",
+                "mangledName": "$s16LokiSDKExtention11CoordinatesV8latitudeSdSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention11CoordinatesV9longitudeSdSgvp",
+            "mangledName": "$s16LokiSDKExtention11CoordinatesV9longitudeSdSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention11CoordinatesV9longitudeSdSgvg",
+                "mangledName": "$s16LokiSDKExtention11CoordinatesV9longitudeSdSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinates",
+                "printedName": "LokiSDKExtention.Coordinates",
+                "usr": "s:16LokiSDKExtention11CoordinatesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention11CoordinatesV8latitude9longitudeACSdSg_AFtcfc",
+            "mangledName": "$s16LokiSDKExtention11CoordinatesV8latitude9longitudeACSdSg_AFtcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinates",
+                "printedName": "LokiSDKExtention.Coordinates",
+                "usr": "s:16LokiSDKExtention11CoordinatesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention11CoordinatesV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16LokiSDKExtention11CoordinatesV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention11CoordinatesV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16LokiSDKExtention11CoordinatesV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LokiSDKExtention11CoordinatesV",
+        "mangledName": "$s16LokiSDKExtention11CoordinatesV",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppMode",
+        "printedName": "AppMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "foreground",
+            "printedName": "foreground",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.AppMode.Type) -> LokiSDKExtention.AppMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppMode",
+                    "printedName": "LokiSDKExtention.AppMode",
+                    "usr": "s:16LokiSDKExtention7AppModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.AppMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppMode",
+                        "printedName": "LokiSDKExtention.AppMode",
+                        "usr": "s:16LokiSDKExtention7AppModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention7AppModeO10foregroundyA2CmF",
+            "mangledName": "$s16LokiSDKExtention7AppModeO10foregroundyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.AppMode.Type) -> LokiSDKExtention.AppMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppMode",
+                    "printedName": "LokiSDKExtention.AppMode",
+                    "usr": "s:16LokiSDKExtention7AppModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.AppMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppMode",
+                        "printedName": "LokiSDKExtention.AppMode",
+                        "usr": "s:16LokiSDKExtention7AppModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention7AppModeO10backgroundyA2CmF",
+            "mangledName": "$s16LokiSDKExtention7AppModeO10backgroundyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "terminated",
+            "printedName": "terminated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.AppMode.Type) -> LokiSDKExtention.AppMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppMode",
+                    "printedName": "LokiSDKExtention.AppMode",
+                    "usr": "s:16LokiSDKExtention7AppModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.AppMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppMode",
+                        "printedName": "LokiSDKExtention.AppMode",
+                        "usr": "s:16LokiSDKExtention7AppModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention7AppModeO10terminatedyA2CmF",
+            "mangledName": "$s16LokiSDKExtention7AppModeO10terminatedyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "locationpush",
+            "printedName": "locationpush",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.AppMode.Type) -> LokiSDKExtention.AppMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppMode",
+                    "printedName": "LokiSDKExtention.AppMode",
+                    "usr": "s:16LokiSDKExtention7AppModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.AppMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppMode",
+                        "printedName": "LokiSDKExtention.AppMode",
+                        "usr": "s:16LokiSDKExtention7AppModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention7AppModeO12locationpushyA2CmF",
+            "mangledName": "$s16LokiSDKExtention7AppModeO12locationpushyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDKExtention.AppMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppMode",
+                    "printedName": "LokiSDKExtention.AppMode",
+                    "usr": "s:16LokiSDKExtention7AppModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention7AppModeO8rawValueACSgs5Int16V_tcfc",
+            "mangledName": "$s16LokiSDKExtention7AppModeO8rawValueACSgs5Int16V_tcfc",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention7AppModeO8rawValues5Int16Vvp",
+            "mangledName": "$s16LokiSDKExtention7AppModeO8rawValues5Int16Vvp",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention7AppModeO8rawValues5Int16Vvg",
+                "mangledName": "$s16LokiSDKExtention7AppModeO8rawValues5Int16Vvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16LokiSDKExtention7AppModeO",
+        "mangledName": "$s16LokiSDKExtention7AppModeO",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int16",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SendLocationRequest",
+        "printedName": "SendLocationRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV8clientIdSSvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8clientIdSSvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV8clientIdSSvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8clientIdSSvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV6userIdSSvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV6userIdSSvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV6userIdSSvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV6userIdSSvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV8deviceIdSSvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8deviceIdSSvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV8deviceIdSSvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8deviceIdSSvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "coordinates",
+            "printedName": "coordinates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDKExtention.Coordinates?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinates",
+                    "printedName": "LokiSDKExtention.Coordinates",
+                    "usr": "s:16LokiSDKExtention11CoordinatesV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV11coordinatesAA11CoordinatesVSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV11coordinatesAA11CoordinatesVSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LokiSDKExtention.Coordinates?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Coordinates",
+                        "printedName": "LokiSDKExtention.Coordinates",
+                        "usr": "s:16LokiSDKExtention11CoordinatesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV11coordinatesAA11CoordinatesVSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV11coordinatesAA11CoordinatesVSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recordedAtUTC",
+            "printedName": "recordedAtUTC",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV13recordedAtUTC10Foundation4DateVSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV13recordedAtUTC10Foundation4DateVSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV13recordedAtUTC10Foundation4DateVSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV13recordedAtUTC10Foundation4DateVSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "altitude",
+            "printedName": "altitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV8altitudeSdSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8altitudeSdSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV8altitudeSdSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8altitudeSdSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verticalAccuracy",
+            "printedName": "verticalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV16verticalAccuracySdSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV16verticalAccuracySdSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV16verticalAccuracySdSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV16verticalAccuracySdSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "horizontalAccuracy",
+            "printedName": "horizontalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV18horizontalAccuracySdSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV18horizontalAccuracySdSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV18horizontalAccuracySdSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV18horizontalAccuracySdSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV10sdkVersionSSSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV10sdkVersionSSSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV10sdkVersionSSSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV10sdkVersionSSSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "speed",
+            "printedName": "speed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV5speedSdSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV5speedSdSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV5speedSdSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV5speedSdSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "battery",
+            "printedName": "battery",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDKExtention.Battery?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Battery",
+                    "printedName": "LokiSDKExtention.Battery",
+                    "usr": "s:16LokiSDKExtention7BatteryV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV7batteryAA7BatteryVSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV7batteryAA7BatteryVSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LokiSDKExtention.Battery?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Battery",
+                        "printedName": "LokiSDKExtention.Battery",
+                        "usr": "s:16LokiSDKExtention7BatteryV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV7batteryAA7BatteryVSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV7batteryAA7BatteryVSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headingDirection",
+            "printedName": "headingDirection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV16headingDirectionSdSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV16headingDirectionSdSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV16headingDirectionSdSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV16headingDirectionSdSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activity",
+            "printedName": "activity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV8activitySSSgvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8activitySSSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV8activitySSSgvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8activitySSSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSimulated",
+            "printedName": "isSimulated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV11isSimulatedSbvp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV11isSimulatedSbvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV11isSimulatedSbvg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV11isSimulatedSbvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appMode",
+            "printedName": "appMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppMode",
+                "printedName": "LokiSDKExtention.AppMode",
+                "usr": "s:16LokiSDKExtention7AppModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV7appModeAA03AppG0Ovp",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV7appModeAA03AppG0Ovp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppMode",
+                    "printedName": "LokiSDKExtention.AppMode",
+                    "usr": "s:16LokiSDKExtention7AppModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV7appModeAA03AppG0Ovg",
+                "mangledName": "$s16LokiSDKExtention19SendLocationRequestV7appModeAA03AppG0Ovg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(clientId:userId:deviceId:coordinates:recordedAtUTC:altitude:verticalAccuracy:horizontalAccuracy:sdkVersion:speed:battery:headingDirection:activity:isSimulated:appMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SendLocationRequest",
+                "printedName": "LokiSDKExtention.SendLocationRequest",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDKExtention.Coordinates?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinates",
+                    "printedName": "LokiSDKExtention.Coordinates",
+                    "usr": "s:16LokiSDKExtention11CoordinatesV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDKExtention.Battery?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Battery",
+                    "printedName": "LokiSDKExtention.Battery",
+                    "usr": "s:16LokiSDKExtention7BatteryV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppMode",
+                "printedName": "LokiSDKExtention.AppMode",
+                "usr": "s:16LokiSDKExtention7AppModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV8clientId04userG006deviceG011coordinates13recordedAtUTC8altitude16verticalAccuracy010horizontalP010sdkVersion5speed7battery16headingDirection8activity11isSimulated7appModeACSS_S2SAA11CoordinatesVSg10Foundation4DateVSgSdSgA2ZSSSgAzA7BatteryVSgAZA_SbAA7AppModeOtcfc",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV8clientId04userG006deviceG011coordinates13recordedAtUTC8altitude16verticalAccuracy010horizontalP010sdkVersion5speed7battery16headingDirection8activity11isSimulated7appModeACSS_S2SAA11CoordinatesVSg10Foundation4DateVSgSdSgA2ZSSSgAzA7BatteryVSgAZA_SbAA7AppModeOtcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SendLocationRequest",
+                "printedName": "LokiSDKExtention.SendLocationRequest",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention19SendLocationRequestV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16LokiSDKExtention19SendLocationRequestV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LokiSDKExtention19SendLocationRequestV",
+        "mangledName": "$s16LokiSDKExtention19SendLocationRequestV",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Battery.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 12,
+      "value": "\"isCharging\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Battery.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 17,
+      "value": "\"remainingCharge\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Battery.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 12,
+      "value": "\"isCharging\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Battery.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 17,
+      "value": "\"remainingCharge\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 17,
+      "value": "\"Accept-Encoding\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 17,
+      "value": "\"Accept-Encoding\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 22,
+      "value": "\"TRACKING_SERVICE_URL\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 296,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 11,
+      "value": "\"APP_GROUP\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Coordinates.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 10,
+      "value": "\"latitude\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Coordinates.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 11,
+      "value": "\"longitude\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Coordinates.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 10,
+      "value": "\"latitude\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Coordinates.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 11,
+      "value": "\"longitude\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 235,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 235,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 235,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 823,
+      "length": 10,
+      "value": "\"clientId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 850,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 10,
+      "value": "\"deviceId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 13,
+      "value": "\"coordinates\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 15,
+      "value": "\"recordedAtUtc\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 980,
+      "length": 10,
+      "value": "\"altitude\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 18,
+      "value": "\"verticalAccuracy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1064,
+      "length": 20,
+      "value": "\"horizontalAccuracy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1133,
+      "length": 24,
+      "value": "\"speedInMetersPerSecond\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 9,
+      "value": "\"battery\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 18,
+      "value": "\"headingDirection\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 10,
+      "value": "\"activity\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 13,
+      "value": "\"isSimulated\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1311,
+      "length": 9,
+      "value": "\"appMode\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 823,
+      "length": 10,
+      "value": "\"clientId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 850,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 10,
+      "value": "\"deviceId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 13,
+      "value": "\"coordinates\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 15,
+      "value": "\"recordedAtUtc\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 980,
+      "length": 10,
+      "value": "\"altitude\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 18,
+      "value": "\"verticalAccuracy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1064,
+      "length": 20,
+      "value": "\"horizontalAccuracy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1133,
+      "length": 24,
+      "value": "\"speedInMetersPerSecond\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 9,
+      "value": "\"battery\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 18,
+      "value": "\"headingDirection\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 10,
+      "value": "\"activity\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 13,
+      "value": "\"isSimulated\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1311,
+      "length": 9,
+      "value": "\"appMode\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 9,
+      "value": "\"AUTHKEY\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 89,
+      "value": "\"LokiSampleApp\/1.0 (au.com.guardiancorp.lokisample; build:1; iOS 16.4.0) Alamofire\/5.6.4\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 17,
+      "value": "\"Accept-Encoding\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 37,
+      "value": "\"br;q=1.0, gzip;q=0.9, deflate;q=0.8\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 761,
+      "length": 9,
+      "value": "\"AUTHKEY\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/JSonEncoder+CustomISO8601Strategy.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 25,
+      "value": "\"Invalid date: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/JSonEncoder+CustomISO8601Strategy.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
