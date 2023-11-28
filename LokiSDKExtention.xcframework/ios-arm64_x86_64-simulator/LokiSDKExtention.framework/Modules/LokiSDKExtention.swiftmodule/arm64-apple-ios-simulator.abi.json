@@ -302,11 +302,274 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "LokiDevice",
+        "printedName": "LokiDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention0A6DeviceV2idSSvp",
+            "mangledName": "$s16LokiSDKExtention0A6DeviceV2idSSvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A6DeviceV2idSSvg",
+                "mangledName": "$s16LokiSDKExtention0A6DeviceV2idSSvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "symmetricKey",
+            "printedName": "symmetricKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention0A6DeviceV12symmetricKeySSvp",
+            "mangledName": "$s16LokiSDKExtention0A6DeviceV12symmetricKeySSvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A6DeviceV12symmetricKeySSvg",
+                "mangledName": "$s16LokiSDKExtention0A6DeviceV12symmetricKeySSvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A6DeviceV12symmetricKeySSvs",
+                "mangledName": "$s16LokiSDKExtention0A6DeviceV12symmetricKeySSvs",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A6DeviceV12symmetricKeySSvM",
+                "mangledName": "$s16LokiSDKExtention0A6DeviceV12symmetricKeySSvM",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:symmetricKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LokiDevice",
+                "printedName": "LokiSDKExtention.LokiDevice",
+                "usr": "s:16LokiSDKExtention0A6DeviceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention0A6DeviceV2id12symmetricKeyACSS_SStcfc",
+            "mangledName": "$s16LokiSDKExtention0A6DeviceV2id12symmetricKeyACSS_SStcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LokiDevice",
+                "printedName": "LokiSDKExtention.LokiDevice",
+                "usr": "s:16LokiSDKExtention0A6DeviceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention0A6DeviceV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16LokiSDKExtention0A6DeviceV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention0A6DeviceV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16LokiSDKExtention0A6DeviceV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LokiSDKExtention0A6DeviceV",
+        "mangledName": "$s16LokiSDKExtention0A6DeviceV",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
         "moduleName": "LokiSDKExtention"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -576,6 +839,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1969,6 +2242,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Swinject",
         "printedName": "Swinject",
         "declKind": "Import",
@@ -2016,8 +2299,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
         "declKind": "Import",
         "moduleName": "LokiSDKExtention",
         "declAttributes": [
@@ -2026,8 +2309,15 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
         "declKind": "Import",
         "moduleName": "LokiSDKExtention"
       },
@@ -2069,6 +2359,78 @@
         "moduleName": "LokiSDKExtention",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaults",
+        "printedName": "UserDefaults",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSUserDefaults",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSUserDefaults",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       }
     ],
@@ -2102,6 +2464,34 @@
       "offset": 295,
       "length": 17,
       "value": "\"remainingCharge\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 14,
+      "value": "\"symmetricKey\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 14,
+      "value": "\"symmetricKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIRouter.swift",
@@ -2510,44 +2900,86 @@
       "value": "\"appMode\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 35,
+      "value": "\"Unable to encode object into data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 40,
+      "value": "\"No data object found for the given key\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 41,
+      "value": "\"Unable to decode object into given type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 35,
+      "value": "\"Unable to encode object into data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 40,
+      "value": "\"No data object found for the given key\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 41,
+      "value": "\"Unable to decode object into given type\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 502,
+      "offset": 536,
       "length": 9,
       "value": "\"AUTHKEY\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 523,
+      "offset": 556,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 570,
       "length": 89,
       "value": "\"LokiSampleApp\/1.0 (au.com.guardiancorp.lokisample; build:1; iOS 16.4.0) Alamofire\/5.6.4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 661,
       "length": 17,
       "value": "\"Accept-Encoding\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 649,
+      "offset": 680,
       "length": 37,
       "value": "\"br;q=1.0, gzip;q=0.9, deflate;q=0.8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Extension\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 792,
       "length": 9,
       "value": "\"AUTHKEY\""
     },

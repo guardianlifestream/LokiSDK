@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|  
     s.name              = 'LokiSDK' # Name for your pod
-    s.version           = '2.0.1'
+    s.version           = '2.0.2'
     s.summary           = 'LokiSDK'
-    s.homepage          = 'https://www.google.com'
+    s.homepage          = 'https://getlifestream.com'
 
     s.author            = { 'Amandeep Kaile' => 'amandeep.kaile@guardiancorp.com.au' }
     s.license = { :type => "MIT", :text => "MIT License" }
 
     s.platform          = :ios
     # change the source location
-    s.source            = { :git => 'https://github.com/guardianlifestream/loki-ios-sdk.git', :tag => 'v2.0.1' } 
+    s.source            = { :git => 'https://github.com/guardianlifestream/loki-ios-sdk.git', :tag => 'v2.0.2' } 
     s.ios.deployment_target = '15.1'
     s.ios.vendored_frameworks = 'LokiSDK.xcframework' # Your XCFramework
     s.dependency 'Alamofire', '~> 5.8.0'

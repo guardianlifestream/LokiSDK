@@ -6494,7 +6494,9 @@
             "usr": "s:7LokiSDK7MlvInfoV4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s7LokiSDK7MlvInfoV4fromACs7Decoder_p_tKcfc",
             "moduleName": "LokiSDK",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -10688,8 +10690,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
         "declKind": "Import",
         "moduleName": "LokiSDK",
         "declAttributes": [
@@ -10698,8 +10700,15 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -15809,7 +15818,7 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 23935,
+      "offset": 23924,
       "length": 5,
       "value": "false"
     },
@@ -15977,42 +15986,42 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 502,
+      "offset": 536,
       "length": 9,
       "value": "\"AUTHKEY\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 523,
+      "offset": 556,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 570,
       "length": 89,
       "value": "\"LokiSampleApp\/1.0 (au.com.guardiancorp.lokisample; build:1; iOS 16.4.0) Alamofire\/5.6.4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 661,
       "length": 17,
       "value": "\"Accept-Encoding\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 649,
+      "offset": 680,
       "length": 37,
       "value": "\"br;q=1.0, gzip;q=0.9, deflate;q=0.8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 792,
       "length": 9,
       "value": "\"AUTHKEY\""
     }

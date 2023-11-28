@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
 import Foundation
+import OSLog
 import Swift
 import Swinject
 import _Concurrency
@@ -12,6 +13,13 @@ public struct Battery : Swift.Codable {
   public let isCharging: Swift.Bool?
   public let remainingCharge: Swift.Int?
   public init(isCharging: Swift.Bool?, remainingCharge: Swift.Int?)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct LokiDevice : Swift.Codable {
+  public let id: Swift.String
+  public var symmetricKey: Swift.String
+  public init(id: Swift.String, symmetricKey: Swift.String)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
