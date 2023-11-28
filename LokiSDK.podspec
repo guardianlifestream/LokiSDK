@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
     s.name              = 'LokiSDK' # Name for your pod
-    s.version           = '2.0.2'
-    s.summary           = 'LokiSDK'
+    s.version           = '2.0.3'
+    s.summary           = 'LokiSDK is a framework for location sharing'
     s.homepage          = 'https://getlifestream.com'
 
     s.author            = { 'Amandeep Kaile' => 'amandeep.kaile@guardiancorp.com.au' }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     # change the source location
-    s.source            = { :git => 'https://github.com/guardianlifestream/loki-ios-sdk.git', :tag => 'v2.0.2' } 
+    s.source            = { :git => 'https://github.com/guardianlifestream/loki-ios-sdk.git', :tag => "v#{s.version}" } 
     s.ios.deployment_target = '15.1'
     s.ios.vendored_frameworks = 'LokiSDK.xcframework' # Your XCFramework
     s.dependency 'Alamofire', '~> 5.8.0'
