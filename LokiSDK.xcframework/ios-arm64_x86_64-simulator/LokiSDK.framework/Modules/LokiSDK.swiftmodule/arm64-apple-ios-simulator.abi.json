@@ -226,6 +226,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "LokiConfiguration",
         "printedName": "LokiConfiguration",
@@ -931,16 +941,6 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "LokiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1082,23 +1082,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LokiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
       },
       {
         "kind": "Import",
@@ -2138,6 +2121,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -3743,6 +3736,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -6223,6 +6226,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "MlvInfo",
         "printedName": "MlvInfo",
@@ -8228,6 +8241,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -8725,16 +8748,6 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "LokiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8752,13 +8765,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
       },
       {
         "kind": "Import",
@@ -8802,13 +8808,6 @@
         "kind": "Import",
         "name": "OSLog",
         "printedName": "OSLog",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -9593,40 +9592,6 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "LokiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LokiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
       },
       {
         "kind": "Import",
@@ -10633,8 +10598,58 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LokiSDK",
         "declAttributes": [
@@ -10690,20 +10705,13 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LokiSDK",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
       },
       {
         "kind": "Import",
@@ -12902,13 +12910,6 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "URLConvertible",
-            "printedName": "URLConvertible",
-            "usr": "s:9Alamofire14URLConvertibleP",
-            "mangledName": "$s9Alamofire14URLConvertibleP"
           }
         ]
       },
@@ -14072,13 +14073,6 @@
             "printedName": "_ExpressibleByFileReferenceLiteral",
             "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
             "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "URLConvertible",
-            "printedName": "URLConvertible",
-            "usr": "s:9Alamofire14URLConvertibleP",
-            "mangledName": "$s9Alamofire14URLConvertibleP"
           }
         ]
       }
@@ -14141,6 +14135,90 @@
       "offset": 316,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 17,
+      "value": "\"Accept-Encoding\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 9,
+      "value": "\"AUTHKEY\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 17,
+      "value": "\"Accept-Encoding\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 9,
+      "value": "\"AUTHKEY\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 553,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 583,
+      "length": 3,
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
@@ -15622,261 +15700,226 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 772,
       "length": 15,
       "value": "\"publisableKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 829,
+      "offset": 813,
       "length": 11,
       "value": "\"lokiIdKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 860,
       "length": 21,
       "value": "\"locationSendTimeKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 934,
+      "offset": 918,
       "length": 22,
       "value": "\"lokiConfigurationKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 986,
+      "offset": 970,
       "length": 15,
       "value": "\"lokiDeviceKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1020,
       "length": 20,
       "value": "\"currentLocationKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1071,
       "length": 16,
       "value": "\"deviceTokenKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1124,
       "length": 22,
       "value": "\"locationPushTokenKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
+      "offset": 1176,
       "length": 15,
       "value": "\"apiAuthKeyKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 1330,
+      "offset": 1314,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3087,
+      "offset": 2970,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3142,
+      "offset": 3025,
       "length": 14,
       "value": "\"LocationData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
+      "kind": "StringLiteral",
+      "offset": 3159,
+      "length": 44,
+      "value": "\"Loki: status: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
+      "kind": "StringLiteral",
+      "offset": 3183,
+      "length": 1,
+      "value": "\", reason: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
+      "kind": "StringLiteral",
+      "offset": 3202,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3448,
+      "offset": 3369,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3565,
+      "offset": 3486,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3674,
+      "offset": 3595,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 3933,
+      "offset": 3854,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3972,
+      "offset": 3893,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 4006,
+      "offset": 3927,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4222,
+      "offset": 4143,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4479,
+      "offset": 4400,
       "length": 24,
       "value": "\"setLocationBeingViewed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4575,
+      "offset": 4496,
       "length": 16,
       "value": "\"locationUpdate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4664,
+      "offset": 4585,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4717,
+      "offset": 4638,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4748,
+      "offset": 4669,
       "length": 33,
       "value": "\"{ \"Response\": \"All Good.\" }\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4824,
+      "offset": 4745,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4943,
+      "offset": 4864,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5119,
+      "offset": 5040,
       "length": 20,
       "value": "\"Loki: Message send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5164,
+      "offset": 5085,
       "length": 30,
       "value": "\"Loki: Message unable to send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 23924,
+      "offset": 23870,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiApiRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 163,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiApiRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 163,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiApiRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 237,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiApiRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiApiRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 303,
-      "length": 17,
-      "value": "\"Accept-Encoding\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiApiRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 237,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiApiRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiApiRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 303,
-      "length": 17,
-      "value": "\"Accept-Encoding\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/LokiNotification+Name.swift",
@@ -15982,48 +16025,6 @@
       "offset": 547,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 536,
-      "length": 9,
-      "value": "\"AUTHKEY\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 556,
-      "length": 12,
-      "value": "\"User-Agent\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 570,
-      "length": 89,
-      "value": "\"LokiSampleApp\/1.0 (au.com.guardiancorp.lokisample; build:1; iOS 16.4.0) Alamofire\/5.6.4\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 661,
-      "length": 17,
-      "value": "\"Accept-Encoding\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 680,
-      "length": 37,
-      "value": "\"br;q=1.0, gzip;q=0.9, deflate;q=0.8\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/Main\/LokiAPIManager.swift",
-      "kind": "StringLiteral",
-      "offset": 792,
-      "length": 9,
-      "value": "\"AUTHKEY\""
     }
   ]
 }
