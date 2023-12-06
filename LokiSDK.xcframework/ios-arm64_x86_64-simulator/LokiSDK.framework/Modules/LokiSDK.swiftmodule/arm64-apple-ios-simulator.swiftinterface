@@ -4,7 +4,6 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreData
 import CoreLocation
-import DeviceKit
 import Foundation
 @_exported import LokiSDK
 import OSLog
