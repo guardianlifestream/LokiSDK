@@ -2855,8 +2855,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "DeviceKit",
+        "printedName": "DeviceKit",
         "declKind": "Import",
         "moduleName": "LokiSDK",
         "declAttributes": [
@@ -2865,15 +2865,15 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
       {
         "kind": "Import",
-        "name": "DeviceKit",
-        "printedName": "DeviceKit",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -4184,8 +4184,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "LokiSDK",
         "declAttributes": [
@@ -4194,8 +4194,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -8768,8 +8768,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AzureIoTHubClient",
+        "printedName": "AzureIoTHubClient",
         "declKind": "Import",
         "moduleName": "LokiSDK",
         "declAttributes": [
@@ -8792,15 +8792,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AzureIoTHubClient",
-        "printedName": "AzureIoTHubClient",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -8808,6 +8801,13 @@
         "kind": "Import",
         "name": "OSLog",
         "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "LokiSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -9605,8 +9605,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "LokiSDK",
         "declAttributes": [
@@ -9615,15 +9615,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -9631,6 +9624,13 @@
         "kind": "Import",
         "name": "OSLog",
         "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "LokiSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -10175,8 +10175,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override",
-              "AccessControl"
+              "AccessControl",
+              "Override"
             ],
             "init_kind": "Designated"
           },
@@ -10668,8 +10668,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreData",
+        "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "LokiSDK",
         "declAttributes": [
@@ -10678,8 +10678,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LokiSDK"
       },
@@ -13683,9 +13683,6 @@
             "usr": "s:So10CLLocationC7LokiSDKE7isValidSbvp",
             "mangledName": "$sSo10CLLocationC7LokiSDKE7isValidSbvp",
             "moduleName": "LokiSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -13733,9 +13730,6 @@
             "usr": "s:So10CLLocationC7LokiSDKE8speedKmhSSSgyF",
             "mangledName": "$sSo10CLLocationC7LokiSDKE8speedKmhSSSgyF",
             "moduleName": "LokiSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -14081,20 +14075,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LoginRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 254,
-      "length": 8,
-      "value": "\"device\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LoginRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 254,
-      "length": 8,
-      "value": "\"device\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
       "offset": 200,
@@ -14209,156 +14189,30 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 553,
+      "offset": 559,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
       "kind": "FloatLiteral",
-      "offset": 583,
+      "offset": 591,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 704,
-      "length": 12,
-      "value": "\"iotHubHost\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 742,
       "length": 37,
       "value": "\"locationCollectionIntervalInSeconds\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 846,
-      "length": 42,
-      "value": "\"foregroundLocationUpdateDistanceInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 939,
-      "length": 42,
-      "value": "\"backgroundLocationUpdateDistanceInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1025,
-      "length": 35,
-      "value": "\"desiredHorizontalAccuracyInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1112,
-      "length": 43,
-      "value": "\"highFrequencyUpdateDistanceFilterInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1213,
-      "length": 49,
-      "value": "\"significantLocationChangeDistanceFilterInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1290,
-      "length": 19,
-      "value": "\"serverSideLogging\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1346,
-      "length": 28,
-      "value": "\"mlvCheckFrequencyInMinutes\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1406,
-      "length": 23,
-      "value": "\"showLocationIndicator\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 704,
-      "length": 12,
-      "value": "\"iotHubHost\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 742,
       "length": 37,
       "value": "\"locationCollectionIntervalInSeconds\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 846,
-      "length": 42,
-      "value": "\"foregroundLocationUpdateDistanceInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 939,
-      "length": 42,
-      "value": "\"backgroundLocationUpdateDistanceInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1025,
-      "length": 35,
-      "value": "\"desiredHorizontalAccuracyInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1112,
-      "length": 43,
-      "value": "\"highFrequencyUpdateDistanceFilterInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1213,
-      "length": 49,
-      "value": "\"significantLocationChangeDistanceFilterInMeters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1290,
-      "length": 19,
-      "value": "\"serverSideLogging\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1346,
-      "length": 28,
-      "value": "\"mlvCheckFrequencyInMinutes\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1406,
-      "length": 23,
-      "value": "\"showLocationIndicator\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
@@ -14389,396 +14243,242 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/CheckMlvResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 321,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/CheckMlvResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 345,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/CheckMlvResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 321,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/CheckMlvResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 345,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 174,
+      "offset": 173,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 193,
+      "offset": 192,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 212,
+      "offset": 211,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 233,
+      "offset": 232,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 254,
+      "offset": 253,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 275,
+      "offset": 274,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 298,
+      "offset": 297,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 316,
+      "offset": 315,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 174,
+      "offset": 173,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 193,
+      "offset": 192,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 212,
+      "offset": 211,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 233,
+      "offset": 232,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 254,
+      "offset": 253,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 275,
+      "offset": 274,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 298,
+      "offset": 297,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 316,
+      "offset": 315,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 174,
+      "offset": 173,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 193,
+      "offset": 192,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 212,
+      "offset": 211,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 233,
+      "offset": 232,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 254,
+      "offset": 253,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 275,
+      "offset": 274,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 298,
+      "offset": 297,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 316,
+      "offset": 315,
       "length": 1,
       "value": "7"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1136,
-      "length": 12,
-      "value": "\"locationId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1167,
-      "length": 10,
-      "value": "\"location\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1195,
-      "length": 9,
-      "value": "\"appMode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1136,
-      "length": 12,
-      "value": "\"locationId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1167,
-      "length": 10,
-      "value": "\"location\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1195,
-      "length": 9,
-      "value": "\"appMode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1449,
+      "offset": 1407,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 164,
+      "offset": 163,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 182,
+      "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 198,
+      "offset": 197,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 164,
+      "offset": 163,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 182,
+      "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 198,
+      "offset": 197,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 164,
+      "offset": 163,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 182,
+      "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 198,
+      "offset": 197,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 470,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 497,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 525,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 9,
-      "value": "\"logType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 579,
-      "length": 9,
-      "value": "\"battery\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 609,
-      "length": 12,
-      "value": "\"sdkVersion\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 470,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 497,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 525,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 9,
-      "value": "\"logType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 579,
-      "length": 9,
-      "value": "\"battery\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/LogRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 609,
-      "length": 12,
-      "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
@@ -14790,1240 +14490,610 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 551,
-      "length": 14,
-      "value": "\"manufacturer\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 580,
-      "length": 6,
-      "value": "\"make\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 612,
-      "length": 17,
-      "value": "\"operatingSystem\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 662,
-      "length": 24,
-      "value": "\"operatingSystemVersion\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 702,
-      "length": 7,
-      "value": "\"model\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 741,
-      "length": 23,
-      "value": "\"pushNotificationToken\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 804,
-      "length": 31,
-      "value": "\"locationPushNotificationToken\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
       "offset": 524,
       "length": 4,
       "value": "\"Id\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 551,
-      "length": 14,
-      "value": "\"manufacturer\""
+      "offset": 307,
+      "length": 8,
+      "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 580,
-      "length": 6,
-      "value": "\"make\""
+      "offset": 357,
+      "length": 19,
+      "value": "\"sdkConfigurations\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 612,
-      "length": 17,
-      "value": "\"operatingSystem\""
+      "offset": 307,
+      "length": 8,
+      "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 662,
-      "length": 24,
-      "value": "\"operatingSystemVersion\""
+      "offset": 357,
+      "length": 19,
+      "value": "\"sdkConfigurations\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 702,
-      "length": 7,
-      "value": "\"model\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
       "offset": 741,
-      "length": 23,
-      "value": "\"pushNotificationToken\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 804,
-      "length": 31,
-      "value": "\"locationPushNotificationToken\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Coordinates.swift",
-      "kind": "StringLiteral",
-      "offset": 260,
-      "length": 10,
-      "value": "\"latitude\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Coordinates.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 11,
-      "value": "\"longitude\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Coordinates.swift",
-      "kind": "StringLiteral",
-      "offset": 260,
-      "length": 10,
-      "value": "\"latitude\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Coordinates.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 11,
-      "value": "\"longitude\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LogoutResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 237,
-      "length": 8,
-      "value": "\"result\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LogoutResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 237,
-      "length": 8,
-      "value": "\"result\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 308,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 333,
-      "length": 8,
-      "value": "\"device\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 19,
-      "value": "\"sdkConfigurations\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 308,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 333,
-      "length": 8,
-      "value": "\"device\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/LoginResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 19,
-      "value": "\"sdkConfigurations\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 728,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 749,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 770,
       "length": 12,
       "value": "\"locationId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 812,
-      "length": 13,
-      "value": "\"coordinates\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 825,
       "length": 15,
       "value": "\"recordedAtUtc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 883,
-      "length": 10,
-      "value": "\"altitude\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 920,
-      "length": 18,
-      "value": "\"verticalAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 967,
-      "length": 20,
-      "value": "\"horizontalAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1008,
-      "length": 12,
-      "value": "\"sdkVersion\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 940,
       "length": 24,
       "value": "\"speedInMetersPerSecond\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1078,
-      "length": 9,
-      "value": "\"battery\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 997,
       "length": 18,
       "value": "\"headingDirection\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1142,
-      "length": 10,
-      "value": "\"activity\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1177,
+      "offset": 1056,
       "length": 16,
       "value": "\"createdDateUtc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
-      "length": 13,
-      "value": "\"isSimulated\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1246,
-      "length": 9,
-      "value": "\"appMode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 728,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 749,
+      "offset": 741,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 770,
       "length": 12,
       "value": "\"locationId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 812,
-      "length": 13,
-      "value": "\"coordinates\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 825,
       "length": 15,
       "value": "\"recordedAtUtc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 883,
-      "length": 10,
-      "value": "\"altitude\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 920,
-      "length": 18,
-      "value": "\"verticalAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 967,
-      "length": 20,
-      "value": "\"horizontalAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1008,
-      "length": 12,
-      "value": "\"sdkVersion\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 940,
       "length": 24,
       "value": "\"speedInMetersPerSecond\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1078,
-      "length": 9,
-      "value": "\"battery\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 997,
       "length": 18,
       "value": "\"headingDirection\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1142,
-      "length": 10,
-      "value": "\"activity\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1177,
+      "offset": 1056,
       "length": 16,
       "value": "\"createdDateUtc\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1215,
-      "length": 13,
-      "value": "\"isSimulated\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LastKnownLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 1246,
-      "length": 9,
-      "value": "\"appMode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 247,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 274,
-      "length": 14,
-      "value": "\"symmetricKey\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 247,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LokiDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 274,
-      "length": 14,
-      "value": "\"symmetricKey\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/SubscribeResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 21,
-      "value": "\"failedSubscriptions\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/SubscribeResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 344,
-      "length": 12,
-      "value": "\"publishers\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/SubscribeResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 21,
-      "value": "\"failedSubscriptions\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/ResponseModel\/SubscribeResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 344,
-      "length": 12,
-      "value": "\"publishers\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
       "kind": "StringLiteral",
-      "offset": 392,
-      "length": 6,
-      "value": "\"isOn\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 432,
-      "length": 25,
-      "value": "\"sendLocationImmediately\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 481,
+      "offset": 443,
       "length": 15,
       "value": "\"correlationId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
       "kind": "StringLiteral",
-      "offset": 516,
-      "length": 11,
-      "value": "\"timeStamp\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 392,
-      "length": 6,
-      "value": "\"isOn\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 432,
-      "length": 25,
-      "value": "\"sendLocationImmediately\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 481,
+      "offset": 443,
       "length": 15,
       "value": "\"correlationId\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 516,
-      "length": 11,
-      "value": "\"timeStamp\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Battery.swift",
-      "kind": "StringLiteral",
-      "offset": 257,
-      "length": 12,
-      "value": "\"isCharging\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Battery.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
-      "length": 17,
-      "value": "\"remainingCharge\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Battery.swift",
-      "kind": "StringLiteral",
-      "offset": 257,
-      "length": 12,
-      "value": "\"isCharging\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Battery.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
-      "length": 17,
-      "value": "\"remainingCharge\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 170,
+      "offset": 169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 191,
+      "offset": 190,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 212,
+      "offset": 211,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 235,
+      "offset": 234,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 170,
+      "offset": 169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 191,
+      "offset": 190,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 212,
+      "offset": 211,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 235,
+      "offset": 234,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 170,
+      "offset": 169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 191,
+      "offset": 190,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 212,
+      "offset": 211,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 235,
+      "offset": 234,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "StringLiteral",
-      "offset": 823,
-      "length": 10,
-      "value": "\"clientId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 850,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 877,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 909,
-      "length": 13,
-      "value": "\"coordinates\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 891,
       "length": 15,
       "value": "\"recordedAtUtc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "StringLiteral",
-      "offset": 980,
-      "length": 10,
-      "value": "\"altitude\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1017,
-      "length": 18,
-      "value": "\"verticalAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1064,
-      "length": 20,
-      "value": "\"horizontalAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1105,
-      "length": 12,
-      "value": "\"sdkVersion\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1006,
       "length": 24,
       "value": "\"speedInMetersPerSecond\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1175,
-      "length": 9,
-      "value": "\"battery\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1211,
-      "length": 18,
-      "value": "\"headingDirection\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1248,
-      "length": 10,
-      "value": "\"activity\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1280,
-      "length": 13,
-      "value": "\"isSimulated\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1311,
-      "length": 9,
-      "value": "\"appMode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 823,
-      "length": 10,
-      "value": "\"clientId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 850,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 877,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 909,
-      "length": 13,
-      "value": "\"coordinates\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 891,
       "length": 15,
       "value": "\"recordedAtUtc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "StringLiteral",
-      "offset": 980,
-      "length": 10,
-      "value": "\"altitude\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1017,
-      "length": 18,
-      "value": "\"verticalAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1064,
-      "length": 20,
-      "value": "\"horizontalAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1105,
-      "length": 12,
-      "value": "\"sdkVersion\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1006,
       "length": 24,
       "value": "\"speedInMetersPerSecond\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1175,
-      "length": 9,
-      "value": "\"battery\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1211,
-      "length": 18,
-      "value": "\"headingDirection\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1248,
-      "length": 10,
-      "value": "\"activity\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1280,
-      "length": 13,
-      "value": "\"isSimulated\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1311,
-      "length": 9,
-      "value": "\"appMode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/RegionLocationCacheable.swift",
       "kind": "StringLiteral",
-      "offset": 1781,
+      "offset": 2039,
       "length": 32,
       "value": "\"loki.region.coordinates.%@.lat\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/RegionLocationCacheable.swift",
       "kind": "StringLiteral",
-      "offset": 1840,
+      "offset": 2098,
       "length": 33,
       "value": "\"loki.region.coordinates.%@.long\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/RegionLocationCacheable.swift",
       "kind": "StringLiteral",
-      "offset": 1902,
+      "offset": 2160,
       "length": 23,
       "value": "\"loki.region.%@.radius\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SubscribeUnsubscribeRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 267,
-      "length": 12,
-      "value": "\"publishers\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SubscribeUnsubscribeRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 267,
-      "length": 12,
-      "value": "\"publishers\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Publisher.swift",
       "kind": "StringLiteral",
-      "offset": 271,
+      "offset": 270,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Publisher.swift",
       "kind": "StringLiteral",
-      "offset": 307,
-      "length": 19,
-      "value": "\"lastKnownLocation\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Publisher.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
+      "offset": 270,
       "length": 8,
       "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/Publisher.swift",
-      "kind": "StringLiteral",
-      "offset": 307,
-      "length": 19,
-      "value": "\"lastKnownLocation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 772,
+      "offset": 794,
       "length": 15,
       "value": "\"publisableKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 813,
+      "offset": 835,
       "length": 11,
       "value": "\"lokiIdKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 882,
       "length": 21,
       "value": "\"locationSendTimeKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 918,
+      "offset": 940,
       "length": 22,
       "value": "\"lokiConfigurationKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 970,
+      "offset": 992,
       "length": 15,
       "value": "\"lokiDeviceKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1042,
       "length": 20,
       "value": "\"currentLocationKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1071,
+      "offset": 1093,
       "length": 16,
       "value": "\"deviceTokenKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1124,
+      "offset": 1146,
       "length": 22,
       "value": "\"locationPushTokenKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1176,
+      "offset": 1198,
       "length": 15,
       "value": "\"apiAuthKeyKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 1314,
+      "offset": 1336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 2970,
+      "offset": 3076,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3025,
+      "offset": 3134,
       "length": 14,
       "value": "\"LocationData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3159,
+      "offset": 3281,
       "length": 44,
       "value": "\"Loki: status: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3183,
+      "offset": 3305,
       "length": 1,
       "value": "\", reason: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3202,
-      "length": 2,
+      "offset": 3324,
+      "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3369,
+      "offset": 3501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3486,
+      "offset": 3618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3595,
+      "offset": 3736,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 3854,
+      "offset": 4034,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3893,
+      "offset": 4076,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3927,
+      "offset": 4110,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4143,
+      "offset": 4342,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4400,
+      "offset": 4642,
       "length": 24,
       "value": "\"setLocationBeingViewed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4496,
+      "offset": 4747,
       "length": 16,
       "value": "\"locationUpdate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4585,
+      "offset": 4845,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4638,
+      "offset": 4898,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4669,
+      "offset": 4929,
       "length": 33,
       "value": "\"{ \"Response\": \"All Good.\" }\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4745,
+      "offset": 5005,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4864,
+      "offset": 5124,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5040,
+      "offset": 5300,
       "length": 20,
       "value": "\"Loki: Message send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5085,
+      "offset": 5352,
       "length": 30,
       "value": "\"Loki: Message unable to send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 23870,
+      "offset": 25340,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/LokiNotification+Name.swift",
       "kind": "StringLiteral",
-      "offset": 191,
+      "offset": 194,
       "length": 16,
       "value": "\"LocationUpdate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/LokiNotification+Name.swift",
       "kind": "StringLiteral",
-      "offset": 262,
+      "offset": 270,
       "length": 22,
       "value": "\"ResetLocationUpdates\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 382,
+      "offset": 381,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 444,
+      "offset": 443,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 508,
+      "offset": 507,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 558,
+      "offset": 557,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 608,
+      "offset": 607,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 644,
+      "offset": 643,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 679,
+      "offset": 678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 710,
+      "offset": 709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1114,
       "length": 38,
       "value": "\"loki_geofence_\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1112,
-      "length": 2,
+      "offset": 1151,
+      "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1164,
+      "offset": 1208,
       "length": 14,
       "value": "\"LocationData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/JSonEncoder+CustomISO8601Strategy.swift",
       "kind": "StringLiteral",
-      "offset": 523,
+      "offset": 551,
       "length": 25,
       "value": "\"Invalid date: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/JSonEncoder+CustomISO8601Strategy.swift",
       "kind": "StringLiteral",
-      "offset": 547,
-      "length": 2,
+      "offset": 575,
+      "length": 1,
       "value": "\"\""
     }
   ]
