@@ -10735,8 +10735,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "LocationEntity",
-        "printedName": "LocationEntity",
+        "name": "LokiLocationEntity",
+        "printedName": "LokiLocationEntity",
         "children": [
           {
             "kind": "Constructor",
@@ -10745,9 +10745,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "LocationEntity",
-                "printedName": "LokiSDK.LocationEntity",
-                "usr": "c:@M@LokiSDK@objc(cs)LocationEntity"
+                "name": "LokiLocationEntity",
+                "printedName": "LokiSDK.LokiLocationEntity",
+                "usr": "c:@M@LokiSDK@objc(cs)LokiLocationEntity"
               },
               {
                 "kind": "TypeNominal",
@@ -10771,8 +10771,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@LokiSDK@objc(cs)LocationEntity(im)initWithEntity:insertIntoManagedObjectContext:",
-            "mangledName": "$s7LokiSDK14LocationEntityC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+            "usr": "c:@M@LokiSDK@objc(cs)LokiLocationEntity(im)initWithEntity:insertIntoManagedObjectContext:",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
             "moduleName": "LokiSDK",
             "overriding": true,
             "implicit": true,
@@ -10792,21 +10792,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "NSFetchRequest",
-                "printedName": "CoreData.NSFetchRequest<LokiSDK.LocationEntity>",
+                "printedName": "CoreData.NSFetchRequest<LokiSDK.LokiLocationEntity>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LocationEntity",
-                    "printedName": "LokiSDK.LocationEntity",
-                    "usr": "c:@M@LokiSDK@objc(cs)LocationEntity"
+                    "name": "LokiLocationEntity",
+                    "printedName": "LokiSDK.LokiLocationEntity",
+                    "usr": "c:@M@LokiSDK@objc(cs)LokiLocationEntity"
                   }
                 ],
                 "usr": "c:objc(cs)NSFetchRequest"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK14LocationEntityC12fetchRequestSo07NSFetchF0CyACGyFZ",
-            "mangledName": "$s7LokiSDK14LocationEntityC12fetchRequestSo07NSFetchF0CyACGyFZ",
+            "usr": "s:7LokiSDK0A14LocationEntityC12fetchRequestSo07NSFetchF0CyACGyFZ",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC12fetchRequestSo07NSFetchF0CyACGyFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -10829,8 +10829,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)horizontalAccuracy",
-            "mangledName": "$s7LokiSDK14LocationEntityC18horizontalAccuracySdvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)horizontalAccuracy",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC18horizontalAccuracySdvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -10853,8 +10853,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)horizontalAccuracy",
-                "mangledName": "$s7LokiSDK14LocationEntityC18horizontalAccuracySdvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)horizontalAccuracy",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC18horizontalAccuracySdvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -10882,8 +10882,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setHorizontalAccuracy:",
-                "mangledName": "$s7LokiSDK14LocationEntityC18horizontalAccuracySdvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setHorizontalAccuracy:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC18horizontalAccuracySdvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -10916,8 +10916,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)httpError",
-            "mangledName": "$s7LokiSDK14LocationEntityC9httpErrorSSSgvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)httpError",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC9httpErrorSSSgvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -10948,8 +10948,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)httpError",
-                "mangledName": "$s7LokiSDK14LocationEntityC9httpErrorSSSgvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)httpError",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC9httpErrorSSSgvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -10985,8 +10985,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setHttpError:",
-                "mangledName": "$s7LokiSDK14LocationEntityC9httpErrorSSSgvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setHttpError:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC9httpErrorSSSgvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11019,8 +11019,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)id",
-            "mangledName": "$s7LokiSDK14LocationEntityC2idSSSgvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)id",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC2idSSSgvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11051,8 +11051,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)id",
-                "mangledName": "$s7LokiSDK14LocationEntityC2idSSSgvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)id",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC2idSSSgvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11088,8 +11088,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setId:",
-                "mangledName": "$s7LokiSDK14LocationEntityC2idSSSgvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setId:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC2idSSSgvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11114,8 +11114,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)latitude",
-            "mangledName": "$s7LokiSDK14LocationEntityC8latitudeSdvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)latitude",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC8latitudeSdvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11138,8 +11138,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)latitude",
-                "mangledName": "$s7LokiSDK14LocationEntityC8latitudeSdvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)latitude",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC8latitudeSdvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11167,8 +11167,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setLatitude:",
-                "mangledName": "$s7LokiSDK14LocationEntityC8latitudeSdvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setLatitude:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC8latitudeSdvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11193,8 +11193,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)longitude",
-            "mangledName": "$s7LokiSDK14LocationEntityC9longitudeSdvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)longitude",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC9longitudeSdvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11217,8 +11217,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)longitude",
-                "mangledName": "$s7LokiSDK14LocationEntityC9longitudeSdvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)longitude",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC9longitudeSdvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11246,8 +11246,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setLongitude:",
-                "mangledName": "$s7LokiSDK14LocationEntityC9longitudeSdvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setLongitude:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC9longitudeSdvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11280,8 +11280,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)mqttResponseError",
-            "mangledName": "$s7LokiSDK14LocationEntityC17mqttResponseErrorSSSgvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)mqttResponseError",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC17mqttResponseErrorSSSgvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11312,8 +11312,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)mqttResponseError",
-                "mangledName": "$s7LokiSDK14LocationEntityC17mqttResponseErrorSSSgvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)mqttResponseError",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC17mqttResponseErrorSSSgvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11349,8 +11349,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setMqttResponseError:",
-                "mangledName": "$s7LokiSDK14LocationEntityC17mqttResponseErrorSSSgvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setMqttResponseError:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC17mqttResponseErrorSSSgvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11383,8 +11383,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)recordedTime",
-            "mangledName": "$s7LokiSDK14LocationEntityC12recordedTime10Foundation4DateVSgvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)recordedTime",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC12recordedTime10Foundation4DateVSgvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11415,8 +11415,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)recordedTime",
-                "mangledName": "$s7LokiSDK14LocationEntityC12recordedTime10Foundation4DateVSgvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)recordedTime",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC12recordedTime10Foundation4DateVSgvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11452,8 +11452,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setRecordedTime:",
-                "mangledName": "$s7LokiSDK14LocationEntityC12recordedTime10Foundation4DateVSgvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setRecordedTime:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC12recordedTime10Foundation4DateVSgvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11478,8 +11478,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)resendStatus",
-            "mangledName": "$s7LokiSDK14LocationEntityC12resendStatuss5Int16Vvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)resendStatus",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC12resendStatuss5Int16Vvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11502,8 +11502,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)resendStatus",
-                "mangledName": "$s7LokiSDK14LocationEntityC12resendStatuss5Int16Vvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)resendStatus",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC12resendStatuss5Int16Vvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11531,8 +11531,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setResendStatus:",
-                "mangledName": "$s7LokiSDK14LocationEntityC12resendStatuss5Int16Vvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setResendStatus:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC12resendStatuss5Int16Vvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11565,8 +11565,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)resendTime",
-            "mangledName": "$s7LokiSDK14LocationEntityC10resendTime10Foundation4DateVSgvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)resendTime",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC10resendTime10Foundation4DateVSgvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11597,8 +11597,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)resendTime",
-                "mangledName": "$s7LokiSDK14LocationEntityC10resendTime10Foundation4DateVSgvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)resendTime",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC10resendTime10Foundation4DateVSgvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11634,8 +11634,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setResendTime:",
-                "mangledName": "$s7LokiSDK14LocationEntityC10resendTime10Foundation4DateVSgvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setResendTime:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC10resendTime10Foundation4DateVSgvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11660,8 +11660,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)sendStatus",
-            "mangledName": "$s7LokiSDK14LocationEntityC10sendStatuss5Int16Vvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)sendStatus",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC10sendStatuss5Int16Vvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11684,8 +11684,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)sendStatus",
-                "mangledName": "$s7LokiSDK14LocationEntityC10sendStatuss5Int16Vvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)sendStatus",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC10sendStatuss5Int16Vvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11713,8 +11713,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setSendStatus:",
-                "mangledName": "$s7LokiSDK14LocationEntityC10sendStatuss5Int16Vvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setSendStatus:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC10sendStatuss5Int16Vvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11747,8 +11747,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)sendTime",
-            "mangledName": "$s7LokiSDK14LocationEntityC8sendTime10Foundation4DateVSgvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)sendTime",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC8sendTime10Foundation4DateVSgvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11779,8 +11779,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)sendTime",
-                "mangledName": "$s7LokiSDK14LocationEntityC8sendTime10Foundation4DateVSgvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)sendTime",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC8sendTime10Foundation4DateVSgvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11816,8 +11816,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setSendTime:",
-                "mangledName": "$s7LokiSDK14LocationEntityC8sendTime10Foundation4DateVSgvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setSendTime:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC8sendTime10Foundation4DateVSgvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11842,8 +11842,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(py)speed",
-            "mangledName": "$s7LokiSDK14LocationEntityC5speedSdvp",
+            "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(py)speed",
+            "mangledName": "$s7LokiSDK0A14LocationEntityC5speedSdvp",
             "moduleName": "LokiSDK",
             "declAttributes": [
               "Dynamic",
@@ -11866,8 +11866,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)speed",
-                "mangledName": "$s7LokiSDK14LocationEntityC5speedSdvg",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)speed",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC5speedSdvg",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11895,8 +11895,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@LokiSDK@objc(cs)LocationEntity(im)setSpeed:",
-                "mangledName": "$s7LokiSDK14LocationEntityC5speedSdvs",
+                "usr": "c:@CM@LokiSDK@objc(cs)LokiLocationEntity(im)setSpeed:",
+                "mangledName": "$s7LokiSDK0A14LocationEntityC5speedSdvs",
                 "moduleName": "LokiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -11910,10 +11910,10 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@LokiSDK@objc(cs)LocationEntity",
-        "mangledName": "$s7LokiSDK14LocationEntityC",
+        "usr": "c:@M@LokiSDK@objc(cs)LokiLocationEntity",
+        "mangledName": "$s7LokiSDK0A14LocationEntityC",
         "moduleName": "LokiSDK",
-        "objc_name": "LocationEntity",
+        "objc_name": "LokiLocationEntity",
         "declAttributes": [
           "AccessControl",
           "ObjC"

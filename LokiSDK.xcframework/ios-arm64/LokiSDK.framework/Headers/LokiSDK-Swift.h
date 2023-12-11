@@ -259,11 +259,18 @@ using UInt = size_t;
 
 
 
+
+SWIFT_CLASS("_TtC7LokiSDK4Loki")
+@interface Loki : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSEntityDescription;
 @class NSManagedObjectContext;
 
-SWIFT_CLASS_NAMED("LocationEntity")
-@interface LocationEntity : NSManagedObject
+SWIFT_CLASS_NAMED("LokiLocationEntity")
+@interface LokiLocationEntity : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -271,7 +278,7 @@ SWIFT_CLASS_NAMED("LocationEntity")
 @class NSString;
 @class NSDate;
 
-@interface LocationEntity (SWIFT_EXTENSION(LokiSDK))
+@interface LokiLocationEntity (SWIFT_EXTENSION(LokiSDK))
 @property (nonatomic) double horizontalAccuracy;
 @property (nonatomic, copy) NSString * _Nullable httpError;
 @property (nonatomic, copy) NSString * _Nullable id;
@@ -284,13 +291,6 @@ SWIFT_CLASS_NAMED("LocationEntity")
 @property (nonatomic) int16_t sendStatus;
 @property (nonatomic, copy) NSDate * _Nullable sendTime;
 @property (nonatomic) double speed;
-@end
-
-
-SWIFT_CLASS("_TtC7LokiSDK4Loki")
-@interface Loki : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

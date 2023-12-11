@@ -339,12 +339,12 @@ extension CoreLocation.CLLocation {
 extension Foundation.URL {
   public static func storeURL(dbName: Swift.String) -> Foundation.URL
 }
-@_inheritsConvenienceInitializers @objc(LocationEntity) public class LocationEntity : CoreData.NSManagedObject {
+@_inheritsConvenienceInitializers @objc(LokiLocationEntity) public class LokiLocationEntity : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
-extension LokiSDK.LocationEntity {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<LokiSDK.LocationEntity>
+extension LokiSDK.LokiLocationEntity {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<LokiSDK.LokiLocationEntity>
   @objc @NSManaged dynamic public var horizontalAccuracy: Swift.Double {
     @objc get
     @objc set
@@ -394,7 +394,7 @@ extension LokiSDK.LocationEntity {
     @objc set
   }
 }
-extension LokiSDK.LocationEntity : Swift.Identifiable {
+extension LokiSDK.LokiLocationEntity : Swift.Identifiable {
   public typealias ID = Swift.String?
 }
 extension CoreLocation.CLLocation.CodingKeys : Swift.Equatable {}
