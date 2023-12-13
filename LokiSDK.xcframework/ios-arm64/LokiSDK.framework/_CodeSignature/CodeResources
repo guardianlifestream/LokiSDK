@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0UxHL6+RjaAojQUDmdBFGhYARko=
+		bjItwL8oQCwwwPyI+xceDRF53Wk=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+w4Q6D8zDkwCpeh9yn56uKzAM3Q=
+		MKgMihYv1riOFBSTLPE+2XSQnew=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+w4Q6D8zDkwCpeh9yn56uKzAM3Q=
+		MKgMihYv1riOFBSTLPE+2XSQnew=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GM5rTMfi/3kmvNjR7+fhJjyC3jw=
+		S0KRT0L2GJfo5YsDWbUeQDlM/EI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2U/cXEPDVYQfz6qHBMQdWjdAOS9ZsgqHadwyOb04MxE=
+			BOE4W2TRBSEg510A6GG/SnB/KI/dn6nldEPUkoCXY6c=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TbZ2KfalcSQFR+H1hWbo8GqfNBrDvIi5B8R9sfJB8mc=
+			mNVZa1RRKbka6uFtgJxL1Ln5Fn5UBh/vVXBGPDdpiPM=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TbZ2KfalcSQFR+H1hWbo8GqfNBrDvIi5B8R9sfJB8mc=
+			mNVZa1RRKbka6uFtgJxL1Ln5Fn5UBh/vVXBGPDdpiPM=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yup2bUUG+rwTmMgAzGYLQjXva9cHr0owU2qxYqhV1+E=
+			Mhe7piHWsjNJ7zO8zNhjq7Xcjgs008boYX04p4z5fKM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

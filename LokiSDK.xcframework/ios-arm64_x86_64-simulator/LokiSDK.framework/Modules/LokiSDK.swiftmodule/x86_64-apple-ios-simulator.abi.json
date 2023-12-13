@@ -9154,8 +9154,8 @@
           },
           {
             "kind": "Function",
-            "name": "login",
-            "printedName": "login(locationId:pushNotificationToken:locationPushNotificationToken:)",
+            "name": "loginAsync",
+            "printedName": "loginAsync(locationId:pushNotificationToken:locationPushNotificationToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9199,8 +9199,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C5login10locationId21pushNotificationToken0d4PushgH0SbSS_SSSgAHtYaFZ",
-            "mangledName": "$s7LokiSDK0A0C5login10locationId21pushNotificationToken0d4PushgH0SbSS_SSSgAHtYaFZ",
+            "usr": "s:7LokiSDK0A0C10loginAsync10locationId21pushNotificationToken0e4PushhI0SbSS_SSSgAHtYaFZ",
+            "mangledName": "$s7LokiSDK0A0C10loginAsync10locationId21pushNotificationToken0e4PushhI0SbSS_SSSgAHtYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -9211,8 +9211,8 @@
           },
           {
             "kind": "Function",
-            "name": "logout",
-            "printedName": "logout()",
+            "name": "logoutAsync",
+            "printedName": "logoutAsync()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9222,8 +9222,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C6logoutSbyYaFZ",
-            "mangledName": "$s7LokiSDK0A0C6logoutSbyYaFZ",
+            "usr": "s:7LokiSDK0A0C11logoutAsyncSbyYaFZ",
+            "mangledName": "$s7LokiSDK0A0C11logoutAsyncSbyYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -9234,8 +9234,8 @@
           },
           {
             "kind": "Function",
-            "name": "getLastKnownLocation",
-            "printedName": "getLastKnownLocation(locationId:)",
+            "name": "getLastKnownLocationAsync",
+            "printedName": "getLastKnownLocationAsync(locationId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9259,8 +9259,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C20getLastKnownLocation10locationIdAA0aF0VSgSS_tYaFZ",
-            "mangledName": "$s7LokiSDK0A0C20getLastKnownLocation10locationIdAA0aF0VSgSS_tYaFZ",
+            "usr": "s:7LokiSDK0A0C25getLastKnownLocationAsync10locationIdAA0aF0VSgSS_tYaFZ",
+            "mangledName": "$s7LokiSDK0A0C25getLastKnownLocationAsync10locationIdAA0aF0VSgSS_tYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -9271,8 +9271,8 @@
           },
           {
             "kind": "Function",
-            "name": "subscribe",
-            "printedName": "subscribe(subsriberIds:)",
+            "name": "subscribeAsync",
+            "printedName": "subscribeAsync(subsriberIds:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9312,8 +9312,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C9subscribe12subsriberIdsSayAA0A8LocationVGSgSaySSG_tYaFZ",
-            "mangledName": "$s7LokiSDK0A0C9subscribe12subsriberIdsSayAA0A8LocationVGSgSaySSG_tYaFZ",
+            "usr": "s:7LokiSDK0A0C14subscribeAsync12subsriberIdsSayAA0A8LocationVGSgSaySSG_tYaFZ",
+            "mangledName": "$s7LokiSDK0A0C14subscribeAsync12subsriberIdsSayAA0A8LocationVGSgSaySSG_tYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -9324,8 +9324,8 @@
           },
           {
             "kind": "Function",
-            "name": "unSubscribe",
-            "printedName": "unSubscribe(subsriberIds:)",
+            "name": "unSubscribeAsync",
+            "printedName": "unSubscribeAsync(subsriberIds:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9349,8 +9349,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C11unSubscribe12subsriberIdsSbSaySSG_tYaFZ",
-            "mangledName": "$s7LokiSDK0A0C11unSubscribe12subsriberIdsSbSaySSG_tYaFZ",
+            "usr": "s:7LokiSDK0A0C16unSubscribeAsync12subsriberIdsSbSaySSG_tYaFZ",
+            "mangledName": "$s7LokiSDK0A0C16unSubscribeAsync12subsriberIdsSbSaySSG_tYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -9361,8 +9361,8 @@
           },
           {
             "kind": "Function",
-            "name": "sendLocation",
-            "printedName": "sendLocation(locationInfo:)",
+            "name": "sendLocationAsync",
+            "printedName": "sendLocationAsync(locationInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9387,8 +9387,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C12sendLocation12locationInfoSbAA0dF0VSg_tYaFZ",
-            "mangledName": "$s7LokiSDK0A0C12sendLocation12locationInfoSbAA0dF0VSg_tYaFZ",
+            "usr": "s:7LokiSDK0A0C17sendLocationAsync12locationInfoSbAA0dG0VSg_tYaFZ",
+            "mangledName": "$s7LokiSDK0A0C17sendLocationAsync12locationInfoSbAA0dG0VSg_tYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -9399,8 +9399,8 @@
           },
           {
             "kind": "Function",
-            "name": "setTokens",
-            "printedName": "setTokens(deviceToken:locationToken:)",
+            "name": "setTokensAsync",
+            "printedName": "setTokensAsync(deviceToken:locationToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9422,8 +9422,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C9setTokens11deviceToken08locationF0SbSS_SStYaFZ",
-            "mangledName": "$s7LokiSDK0A0C9setTokens11deviceToken08locationF0SbSS_SStYaFZ",
+            "usr": "s:7LokiSDK0A0C14setTokensAsync11deviceToken08locationG0SbSS_SStYaFZ",
+            "mangledName": "$s7LokiSDK0A0C14setTokensAsync11deviceToken08locationG0SbSS_SStYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -9456,8 +9456,8 @@
           },
           {
             "kind": "Function",
-            "name": "log",
-            "printedName": "log(message:logType:)",
+            "name": "logAsync",
+            "printedName": "logAsync(message:logType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9479,8 +9479,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C3log7message0C4TypeSbSS_AA03LogE0OtYaFZ",
-            "mangledName": "$s7LokiSDK0A0C3log7message0C4TypeSbSS_AA03LogE0OtYaFZ",
+            "usr": "s:7LokiSDK0A0C8logAsync7message0C4TypeSbSS_AA03LogF0OtYaFZ",
+            "mangledName": "$s7LokiSDK0A0C8logAsync7message0C4TypeSbSS_AA03LogF0OtYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -9491,8 +9491,8 @@
           },
           {
             "kind": "Function",
-            "name": "checkMlv",
-            "printedName": "checkMlv()",
+            "name": "checkMlvAsync",
+            "printedName": "checkMlvAsync()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9502,8 +9502,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C8checkMlvSbyYaFZ",
-            "mangledName": "$s7LokiSDK0A0C8checkMlvSbyYaFZ",
+            "usr": "s:7LokiSDK0A0C13checkMlvAsyncSbyYaFZ",
+            "mangledName": "$s7LokiSDK0A0C13checkMlvAsyncSbyYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -10668,6 +10668,330 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LokiSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationDataController",
+        "printedName": "LocationDataController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "clearLocationData",
+            "printedName": "clearLocationData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC05clearcD0SbyF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC05clearcD0SbyF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLocationData",
+            "printedName": "getLocationData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[LokiSDK.LokiLocationEntity]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LokiSDK.LokiLocationEntity]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LokiLocationEntity",
+                        "printedName": "LokiSDK.LokiLocationEntity",
+                        "usr": "c:@M@LokiSDK@objc(cs)LokiLocationEntity"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC03getcD0SayAA0aC6EntityCGSgyF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC03getcD0SayAA0aC6EntityCGSgyF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeOldData",
+            "printedName": "removeOldData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC09removeOldD0yyF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC09removeOldD0yyF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addLocation",
+            "printedName": "addLocation(locationInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocationInfo",
+                "printedName": "LokiSDK.LocationInfo",
+                "usr": "s:7LokiSDK12LocationInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC03addC012locationInfoyAA0cH0V_tF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC03addC012locationInfoyAA0cH0V_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSendTime",
+            "printedName": "updateSendTime(locationId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC14updateSendTime10locationIdySS_tF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC14updateSendTime10locationIdySS_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateResendTime",
+            "printedName": "updateResendTime(locationId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC16updateResendTime10locationIdySS_tF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC16updateResendTime10locationIdySS_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSendStatus",
+            "printedName": "updateSendStatus(locationId:status:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SendStatus",
+                "printedName": "LokiSDK.SendStatus",
+                "usr": "s:7LokiSDK10SendStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC16updateSendStatus10locationId6status5errorySS_AA0gH0OSSSgtF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC16updateSendStatus10locationId6status5errorySS_AA0gH0OSSSgtF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateResendStatus",
+            "printedName": "updateResendStatus(locationId:status:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SendStatus",
+                "printedName": "LokiSDK.SendStatus",
+                "usr": "s:7LokiSDK10SendStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC18updateResendStatus10locationId6status5errorySS_AA04SendH0OSSSgtF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC18updateResendStatus10locationId6status5errorySS_AA04SendH0OSSSgtF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSendStatus",
+            "printedName": "getSendStatus(locationId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDK.SendStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDK.SendStatus",
+                    "usr": "s:7LokiSDK10SendStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK22LocationDataControllerC13getSendStatus10locationIdAA0gH0OSgSS_tF",
+            "mangledName": "$s7LokiSDK22LocationDataControllerC13getSendStatus10locationIdAA0gH0OSgSS_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7LokiSDK22LocationDataControllerC",
+        "mangledName": "$s7LokiSDK22LocationDataControllerC",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -14756,224 +15080,224 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 777,
+      "offset": 779,
       "length": 15,
       "value": "\"publisableKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 820,
       "length": 11,
       "value": "\"lokiIdKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 865,
+      "offset": 867,
       "length": 21,
       "value": "\"locationSendTimeKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 923,
+      "offset": 925,
       "length": 22,
       "value": "\"lokiConfigurationKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 977,
       "length": 15,
       "value": "\"lokiDeviceKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1025,
+      "offset": 1027,
       "length": 20,
       "value": "\"currentLocationKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1076,
+      "offset": 1078,
       "length": 16,
       "value": "\"deviceTokenKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 1131,
       "length": 22,
       "value": "\"locationPushTokenKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
+      "offset": 1183,
       "length": 15,
       "value": "\"apiAuthKeyKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 1319,
+      "offset": 1321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3059,
+      "offset": 3063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3117,
+      "offset": 3121,
       "length": 14,
       "value": "\"LocationData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3264,
+      "offset": 3268,
       "length": 44,
       "value": "\"Loki: status: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3288,
+      "offset": 3292,
       "length": 1,
       "value": "\", reason: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3307,
+      "offset": 3311,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3484,
+      "offset": 3488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3601,
+      "offset": 3605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3719,
+      "offset": 3723,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4017,
+      "offset": 4021,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 4059,
+      "offset": 4063,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 4093,
+      "offset": 4097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4325,
+      "offset": 4329,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4625,
+      "offset": 4629,
       "length": 24,
       "value": "\"setLocationBeingViewed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4730,
+      "offset": 4734,
       "length": 16,
       "value": "\"locationUpdate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4828,
+      "offset": 4832,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4881,
+      "offset": 4885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4912,
+      "offset": 4916,
       "length": 33,
       "value": "\"{ \"Response\": \"All Good.\" }\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4988,
+      "offset": 4992,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 5107,
+      "offset": 5111,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5283,
+      "offset": 5287,
       "length": 20,
       "value": "\"Loki: Message send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5335,
+      "offset": 5339,
       "length": 30,
       "value": "\"Loki: Message unable to send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 25757,
+      "offset": 25000,
       "length": 5,
       "value": "false"
     },
@@ -15050,21 +15374,21 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1114,
+      "offset": 1115,
       "length": 38,
       "value": "\"loki_geofence_\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1151,
+      "offset": 1152,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1209,
       "length": 14,
       "value": "\"LocationData\""
     },

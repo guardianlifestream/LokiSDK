@@ -280,32 +280,32 @@ public protocol LokiDelegate : AnyObject {
   public static func initialize(_ publishableKey: Swift.String)
   public static func setDelegate(_ delegate: LokiSDK.LokiDelegate?)
   #if compiler(>=5.3) && $AsyncAwait
-  public static func login(locationId: Swift.String, pushNotificationToken: Swift.String?, locationPushNotificationToken: Swift.String?) async -> Swift.Bool
+  public static func loginAsync(locationId: Swift.String, pushNotificationToken: Swift.String?, locationPushNotificationToken: Swift.String?) async -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public static func logout() async -> Swift.Bool
+  public static func logoutAsync() async -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public static func getLastKnownLocation(locationId: Swift.String) async -> LokiSDK.LokiLocation?
+  public static func getLastKnownLocationAsync(locationId: Swift.String) async -> LokiSDK.LokiLocation?
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public static func subscribe(subsriberIds: [Swift.String]) async -> [LokiSDK.LokiLocation]?
+  public static func subscribeAsync(subsriberIds: [Swift.String]) async -> [LokiSDK.LokiLocation]?
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public static func unSubscribe(subsriberIds: [Swift.String]) async -> Swift.Bool
+  public static func unSubscribeAsync(subsriberIds: [Swift.String]) async -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public static func sendLocation(locationInfo: LokiSDK.LocationInfo? = nil) async -> Swift.Bool
+  public static func sendLocationAsync(locationInfo: LokiSDK.LocationInfo? = nil) async -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public static func setTokens(deviceToken: Swift.String, locationToken: Swift.String) async -> Swift.Bool
+  public static func setTokensAsync(deviceToken: Swift.String, locationToken: Swift.String) async -> Swift.Bool
   #endif
   public static func locationPushReceieved()
   #if compiler(>=5.3) && $AsyncAwait
-  public static func log(message: Swift.String, logType: LokiSDK.LogType) async -> Swift.Bool
+  public static func logAsync(message: Swift.String, logType: LokiSDK.LogType) async -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public static func checkMlv() async -> Swift.Bool
+  public static func checkMlvAsync() async -> Swift.Bool
   #endif
 }
 @objc @_inheritsConvenienceInitializers public class LokiLocationManager : ObjectiveC.NSObject {
@@ -335,6 +335,19 @@ extension CoreLocation.CLLocation {
     get
   }
   public func speedKmh() -> Swift.String?
+}
+@_hasMissingDesignatedInitializers public class LocationDataController : Foundation.ObservableObject {
+  public func clearLocationData() -> Swift.Bool
+  public func getLocationData() -> [LokiSDK.LokiLocationEntity]?
+  public func removeOldData()
+  public func addLocation(locationInfo: LokiSDK.LocationInfo)
+  public func updateSendTime(locationId: Swift.String)
+  public func updateResendTime(locationId: Swift.String)
+  public func updateSendStatus(locationId: Swift.String, status: LokiSDK.SendStatus, error: Swift.String? = nil)
+  public func updateResendStatus(locationId: Swift.String, status: LokiSDK.SendStatus, error: Swift.String? = nil)
+  public func getSendStatus(locationId: Swift.String) -> LokiSDK.SendStatus?
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
 }
 extension Foundation.URL {
   public static func storeURL(dbName: Swift.String) -> Foundation.URL
