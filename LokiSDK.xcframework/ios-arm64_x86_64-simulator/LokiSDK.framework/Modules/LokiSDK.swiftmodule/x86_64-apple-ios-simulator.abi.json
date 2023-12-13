@@ -10670,6 +10670,13 @@
         "moduleName": "LokiSDK"
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "LokiSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "LocationDataController",
         "printedName": "LocationDataController",
