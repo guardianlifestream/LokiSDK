@@ -2418,6 +2418,20 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 13,
+      "value": "\"W3W_API_KEY\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/LokiNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 219,
