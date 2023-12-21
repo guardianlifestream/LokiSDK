@@ -8858,13 +8858,6 @@
         "moduleName": "LokiSDK"
       },
       {
-        "kind": "Import",
-        "name": "W3WSwiftApi",
-        "printedName": "W3WSwiftApi",
-        "declKind": "Import",
-        "moduleName": "LokiSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "LokiDelegate",
         "printedName": "LokiDelegate",
@@ -9513,64 +9506,6 @@
             "declKind": "Func",
             "usr": "s:7LokiSDK0A0C21locationPushReceievedyyFZ",
             "mangledName": "$s7LokiSDK0A0C21locationPushReceievedyyFZ",
-            "moduleName": "LokiSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "convertTo3waAsync",
-            "printedName": "convertTo3waAsync(coordinate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CLLocationCoordinate2D",
-                "printedName": "CoreLocation.CLLocationCoordinate2D",
-                "usr": "c:@S@CLLocationCoordinate2D"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C17convertTo3waAsync10coordinateSSSo22CLLocationCoordinate2DV_tYaFZ",
-            "mangledName": "$s7LokiSDK0A0C17convertTo3waAsync10coordinateSSSo22CLLocationCoordinate2DV_tYaFZ",
-            "moduleName": "LokiSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "convertToCoordinateAsync",
-            "printedName": "convertToCoordinateAsync(words:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CLLocationCoordinate2D",
-                "printedName": "CoreLocation.CLLocationCoordinate2D",
-                "usr": "c:@S@CLLocationCoordinate2D"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C24convertToCoordinateAsync5wordsSo22CLLocationCoordinate2DVSS_tYaFZ",
-            "mangledName": "$s7LokiSDK0A0C24convertToCoordinateAsync5wordsSo22CLLocationCoordinate2DVSS_tYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -14685,20 +14620,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 13,
-      "value": "\"W3W_API_KEY\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 626,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 173,
@@ -15226,224 +15147,224 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 798,
+      "offset": 779,
       "length": 15,
       "value": "\"publisableKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 820,
       "length": 11,
       "value": "\"lokiIdKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 886,
+      "offset": 867,
       "length": 21,
       "value": "\"locationSendTimeKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 925,
       "length": 22,
       "value": "\"lokiConfigurationKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 977,
       "length": 15,
       "value": "\"lokiDeviceKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1027,
       "length": 20,
       "value": "\"currentLocationKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1097,
+      "offset": 1078,
       "length": 16,
       "value": "\"deviceTokenKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1131,
       "length": 22,
       "value": "\"locationPushTokenKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
+      "offset": 1183,
       "length": 15,
       "value": "\"apiAuthKeyKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 1340,
+      "offset": 1321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3116,
+      "offset": 3063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3174,
+      "offset": 3121,
       "length": 14,
       "value": "\"LocationData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3321,
+      "offset": 3268,
       "length": 47,
       "value": "\"LokiSDK: status: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3348,
+      "offset": 3295,
       "length": 1,
       "value": "\", reason: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3367,
+      "offset": 3314,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3544,
+      "offset": 3491,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3661,
+      "offset": 3608,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3779,
+      "offset": 3726,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4077,
+      "offset": 4024,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 4119,
+      "offset": 4066,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 4153,
+      "offset": 4100,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4385,
+      "offset": 4332,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4685,
+      "offset": 4632,
       "length": 24,
       "value": "\"setLocationBeingViewed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4790,
+      "offset": 4737,
       "length": 16,
       "value": "\"locationUpdate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4888,
+      "offset": 4835,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4941,
+      "offset": 4888,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4972,
+      "offset": 4919,
       "length": 33,
       "value": "\"{ \"Response\": \"All Good.\" }\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 5048,
+      "offset": 4995,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 5167,
+      "offset": 5114,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5343,
+      "offset": 5290,
       "length": 23,
       "value": "\"LokiSDK: Message send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5398,
+      "offset": 5345,
       "length": 33,
       "value": "\"LokiSDK: Message unable to send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 26622,
+      "offset": 25612,
       "length": 5,
       "value": "false"
     },

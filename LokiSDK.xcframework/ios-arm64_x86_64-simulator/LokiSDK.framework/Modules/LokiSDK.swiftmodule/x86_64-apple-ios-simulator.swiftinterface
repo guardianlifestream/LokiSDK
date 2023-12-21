@@ -10,7 +10,6 @@ import Foundation
 import OSLog
 import Swift
 import UIKit
-import W3WSwiftApi
 import _Concurrency
 import _StringProcessing
 public struct LoginRequest : Swift.Codable {
@@ -304,12 +303,6 @@ public protocol LokiDelegate : AnyObject {
   public static func setTokensAsync(deviceToken: Swift.String, locationToken: Swift.String) async -> Swift.Bool
   #endif
   public static func locationPushReceieved()
-  #if compiler(>=5.3) && $AsyncAwait
-  public static func convertTo3waAsync(coordinate: CoreLocation.CLLocationCoordinate2D) async -> Swift.String
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public static func convertToCoordinateAsync(words: Swift.String) async -> CoreLocation.CLLocationCoordinate2D
-  #endif
   #if compiler(>=5.3) && $AsyncAwait
   public static func logAsync(message: Swift.String, logType: LokiSDK.LogType) async -> Swift.Bool
   #endif
