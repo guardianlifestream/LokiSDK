@@ -308,7 +308,7 @@ public protocol LokiDelegate : AnyObject {
   public static func convertTo3waAsync(coordinate: CoreLocation.CLLocationCoordinate2D) async -> Swift.String
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public static func convertToCoordinate(words: Swift.String) async -> CoreLocation.CLLocationCoordinate2D
+  public static func convertToCoordinateAsync(words: Swift.String) async -> CoreLocation.CLLocationCoordinate2D
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public static func logAsync(message: Swift.String, logType: LokiSDK.LogType) async -> Swift.Bool

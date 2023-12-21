@@ -9552,8 +9552,8 @@
           },
           {
             "kind": "Function",
-            "name": "convertToCoordinate",
-            "printedName": "convertToCoordinate(words:)",
+            "name": "convertToCoordinateAsync",
+            "printedName": "convertToCoordinateAsync(words:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9569,8 +9569,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7LokiSDK0A0C19convertToCoordinate5wordsSo22CLLocationCoordinate2DVSS_tYaFZ",
-            "mangledName": "$s7LokiSDK0A0C19convertToCoordinate5wordsSo22CLLocationCoordinate2DVSS_tYaFZ",
+            "usr": "s:7LokiSDK0A0C24convertToCoordinateAsync5wordsSo22CLLocationCoordinate2DVSS_tYaFZ",
+            "mangledName": "$s7LokiSDK0A0C24convertToCoordinateAsync5wordsSo22CLLocationCoordinate2DVSS_tYaFZ",
             "moduleName": "LokiSDK",
             "static": true,
             "declAttributes": [
@@ -15443,7 +15443,7 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 26617,
+      "offset": 26622,
       "length": 5,
       "value": "false"
     },
