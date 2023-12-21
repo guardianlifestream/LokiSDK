@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
     s.dependency 'AzureIoTuAmqp', '~> 1.10.0'
     s.dependency 'AzureIoTHubClient', '~> 1.10.0'
     s.dependency 'OpenSSL-Universal', '~> 3.1.3001'
-    s.dependency 'W3WSwiftApi', 
     s.swift_version = '5.7'
 end
