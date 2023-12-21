@@ -203,6 +203,7 @@ public struct LokiLocation {
   public let location: CoreLocation.CLLocation
   public let isSimulated: Swift.Bool
   public let appMode: LokiSDK.AppMode
+  public let formattedAddress: Swift.String?
 }
 public struct MlvInfo : Swift.Codable, Swift.Sendable {
   public let isOn: Swift.Bool
