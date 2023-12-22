@@ -4176,6 +4176,129 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ILokiLoggerService",
+        "printedName": "ILokiLoggerService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "logInformation",
+            "printedName": "logInformation(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK18ILokiLoggerServiceP14logInformation7messageySS_tF",
+            "mangledName": "$s7LokiSDK18ILokiLoggerServiceP14logInformation7messageySS_tF",
+            "moduleName": "LokiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LokiSDK.ILokiLoggerService>",
+            "sugared_genericSig": "<Self where Self : LokiSDK.ILokiLoggerService>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK18ILokiLoggerServiceP10logWarning7messageySS_tF",
+            "mangledName": "$s7LokiSDK18ILokiLoggerServiceP10logWarning7messageySS_tF",
+            "moduleName": "LokiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LokiSDK.ILokiLoggerService>",
+            "sugared_genericSig": "<Self where Self : LokiSDK.ILokiLoggerService>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK18ILokiLoggerServiceP8logError7messageySS_tF",
+            "mangledName": "$s7LokiSDK18ILokiLoggerServiceP8logError7messageySS_tF",
+            "moduleName": "LokiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LokiSDK.ILokiLoggerService>",
+            "sugared_genericSig": "<Self where Self : LokiSDK.ILokiLoggerService>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK18ILokiLoggerServiceP8logDebug7messageySS_tF",
+            "mangledName": "$s7LokiSDK18ILokiLoggerServiceP8logDebug7messageySS_tF",
+            "moduleName": "LokiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LokiSDK.ILokiLoggerService>",
+            "sugared_genericSig": "<Self where Self : LokiSDK.ILokiLoggerService>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7LokiSDK18ILokiLoggerServiceP",
+        "mangledName": "$s7LokiSDK18ILokiLoggerServiceP",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
@@ -5445,6 +5568,100 @@
         "moduleName": "LokiSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ILokiDateWrapper",
+        "printedName": "ILokiDateWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentDate",
+            "printedName": "currentDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LokiSDK16ILokiDateWrapperP07currentD010Foundation0D0Vvp",
+            "mangledName": "$s7LokiSDK16ILokiDateWrapperP07currentD010Foundation0D0Vvp",
+            "moduleName": "LokiSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LokiSDK16ILokiDateWrapperP07currentD010Foundation0D0Vvg",
+                "mangledName": "$s7LokiSDK16ILokiDateWrapperP07currentD010Foundation0D0Vvg",
+                "moduleName": "LokiSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : LokiSDK.ILokiDateWrapper>",
+                "sugared_genericSig": "<Self where Self : LokiSDK.ILokiDateWrapper>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getLocalDateTimeString",
+            "printedName": "getLocalDateTimeString(dateTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK16ILokiDateWrapperP08getLocalD10TimeString04dateH0SS10Foundation0D0V_tF",
+            "mangledName": "$s7LokiSDK16ILokiDateWrapperP08getLocalD10TimeString04dateH0SS10Foundation0D0V_tF",
+            "moduleName": "LokiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LokiSDK.ILokiDateWrapper>",
+            "sugared_genericSig": "<Self where Self : LokiSDK.ILokiDateWrapper>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7LokiSDK16ILokiDateWrapperP",
+        "mangledName": "$s7LokiSDK16ILokiDateWrapperP",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -8304,6 +8521,178 @@
       },
       {
         "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "LokiSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LokiLoggerService",
+        "printedName": "LokiLoggerService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dateTimeWrapper:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LokiLoggerService",
+                "printedName": "LokiSDK.LokiLoggerService",
+                "usr": "s:7LokiSDK0A13LoggerServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ILokiDateWrapper",
+                "printedName": "LokiSDK.ILokiDateWrapper",
+                "usr": "s:7LokiSDK16ILokiDateWrapperP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7LokiSDK0A13LoggerServiceC15dateTimeWrapperAcA09ILokiDateG0_p_tcfc",
+            "mangledName": "$s7LokiSDK0A13LoggerServiceC15dateTimeWrapperAcA09ILokiDateG0_p_tcfc",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK0A13LoggerServiceC8logDebug7messageySS_tF",
+            "mangledName": "$s7LokiSDK0A13LoggerServiceC8logDebug7messageySS_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logInformation",
+            "printedName": "logInformation(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK0A13LoggerServiceC14logInformation7messageySS_tF",
+            "mangledName": "$s7LokiSDK0A13LoggerServiceC14logInformation7messageySS_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK0A13LoggerServiceC10logWarning7messageySS_tF",
+            "mangledName": "$s7LokiSDK0A13LoggerServiceC10logWarning7messageySS_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK0A13LoggerServiceC8logError7messageySS_tF",
+            "mangledName": "$s7LokiSDK0A13LoggerServiceC8logError7messageySS_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7LokiSDK0A13LoggerServiceC",
+        "mangledName": "$s7LokiSDK0A13LoggerServiceC",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ILokiLoggerService",
+            "printedName": "ILokiLoggerService",
+            "usr": "s:7LokiSDK18ILokiLoggerServiceP",
+            "mangledName": "$s7LokiSDK18ILokiLoggerServiceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -11105,6 +11494,107 @@
         "moduleName": "LokiSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LokiDateWrapper",
+        "printedName": "LokiDateWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentDate",
+            "printedName": "currentDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LokiSDK0A11DateWrapperC07currentC010Foundation0C0Vvp",
+            "mangledName": "$s7LokiSDK0A11DateWrapperC07currentC010Foundation0C0Vvp",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LokiSDK0A11DateWrapperC07currentC010Foundation0C0Vvg",
+                "mangledName": "$s7LokiSDK0A11DateWrapperC07currentC010Foundation0C0Vvg",
+                "moduleName": "LokiSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getLocalDateTimeString",
+            "printedName": "getLocalDateTimeString(dateTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK0A11DateWrapperC08getLocalC10TimeString04dateG0SS10Foundation0C0V_tF",
+            "mangledName": "$s7LokiSDK0A11DateWrapperC08getLocalC10TimeString04dateG0SS10Foundation0C0V_tF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7LokiSDK0A11DateWrapperC",
+        "mangledName": "$s7LokiSDK0A11DateWrapperC",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ILokiDateWrapper",
+            "printedName": "ILokiDateWrapper",
+            "usr": "s:7LokiSDK16ILokiDateWrapperP",
+            "mangledName": "$s7LokiSDK16ILokiDateWrapperP"
+          }
         ]
       },
       {
@@ -15110,6 +15600,139 @@
       "value": "\"speedInMetersPerSecond\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 15,
+      "value": "\"\u001B[0;0m\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 16,
+      "value": "\"\u001B[0;31m\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 16,
+      "value": "\"\u001B[0;36m\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 16,
+      "value": "\"\u001B[0;33m\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 16,
+      "value": "\"\u001B[0;32m\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 519,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 519,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 519,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "Array",
+      "offset": 1414,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
+      "kind": "StringLiteral",
+      "offset": 1453,
+      "length": 7,
+      "value": "\" $$$ \""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/RegionLocationCacheable.swift",
       "kind": "StringLiteral",
       "offset": 2039,
@@ -15217,154 +15840,154 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3063,
+      "offset": 3110,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3121,
+      "offset": 3168,
       "length": 14,
       "value": "\"LocationData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3268,
+      "offset": 3441,
       "length": 47,
       "value": "\"LokiSDK: status: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3295,
+      "offset": 3468,
       "length": 1,
       "value": "\", reason: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 3314,
-      "length": 1,
+      "offset": 3487,
+      "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3491,
+      "offset": 3570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3608,
+      "offset": 3687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 3726,
+      "offset": 3805,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4024,
+      "offset": 4103,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 4066,
+      "offset": 4145,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 4100,
+      "offset": 4179,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4332,
+      "offset": 4411,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4632,
+      "offset": 4711,
       "length": 24,
       "value": "\"setLocationBeingViewed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4737,
+      "offset": 4816,
       "length": 16,
       "value": "\"locationUpdate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4835,
+      "offset": 4914,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4888,
+      "offset": 4967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 4919,
+      "offset": 4998,
       "length": 33,
       "value": "\"{ \"Response\": \"All Good.\" }\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 4995,
+      "offset": 5074,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 5114,
+      "offset": 5193,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5290,
+      "offset": 5499,
       "length": 23,
       "value": "\"LokiSDK: Message send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "StringLiteral",
-      "offset": 5345,
+      "offset": 5583,
       "length": 33,
       "value": "\"LokiSDK: Message unable to send\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
       "kind": "BooleanLiteral",
-      "offset": 25612,
+      "offset": 29780,
       "length": 5,
       "value": "false"
     },

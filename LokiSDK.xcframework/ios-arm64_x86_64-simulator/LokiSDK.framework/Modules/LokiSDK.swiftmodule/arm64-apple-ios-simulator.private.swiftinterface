@@ -162,6 +162,12 @@ public struct LoginResponse : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public protocol ILokiLoggerService {
+  func logInformation(message: Swift.String)
+  func logWarning(message: Swift.String)
+  func logError(message: Swift.String)
+  func logDebug(message: Swift.String)
+}
 public struct LastKnownLocation : Swift.Codable {
   public let id: Swift.String?
   public let userID: Swift.String
@@ -183,6 +189,10 @@ public struct LastKnownLocation : Swift.Codable {
   public func location() -> LokiSDK.LokiLocation
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+}
+public protocol ILokiDateWrapper {
+  var currentDate: Foundation.Date { get }
+  func getLocalDateTimeString(dateTime: Foundation.Date) -> Swift.String
 }
 public struct LokiDevice : Swift.Codable {
   public let id: Swift.String
@@ -251,6 +261,14 @@ public struct SendLocationRequest : Swift.Codable {
   public init(clientId: Swift.String, userId: Swift.String, deviceId: Swift.String, coordinates: LokiSDK.Coordinates?, recordedAtUTC: Foundation.Date?, altitude: Swift.Double?, verticalAccuracy: Swift.Double?, horizontalAccuracy: Swift.Double?, sdkVersion: Swift.String?, speed: Swift.Double?, battery: LokiSDK.Battery?, headingDirection: Swift.Double?, activity: Swift.String?, isSimulated: Swift.Bool, appMode: LokiSDK.AppMode)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+}
+public class LokiLoggerService : LokiSDK.ILokiLoggerService {
+  public init(dateTimeWrapper: LokiSDK.ILokiDateWrapper)
+  public func logDebug(message: Swift.String)
+  public func logInformation(message: Swift.String)
+  public func logWarning(message: Swift.String)
+  public func logError(message: Swift.String)
+  @objc deinit
 }
 public struct SubscribeUnsubscribeRequest : Swift.Codable {
   public let publishers: [Swift.String]?
@@ -353,6 +371,13 @@ extension CoreLocation.CLLocation {
 }
 extension Foundation.URL {
   public static func storeURL(dbName: Swift.String) -> Foundation.URL
+}
+@_hasMissingDesignatedInitializers public class LokiDateWrapper : LokiSDK.ILokiDateWrapper {
+  public var currentDate: Foundation.Date {
+    get
+  }
+  public func getLocalDateTimeString(dateTime: Foundation.Date) -> Swift.String
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(LokiLocationEntity) public class LokiLocationEntity : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
