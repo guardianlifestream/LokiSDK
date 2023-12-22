@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4xdehpoKZJ+hFsfa3yj/CtAx+ws=
+		tt3TWzcyAJ2bPxzdN+9Bg0NkaRY=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gdy+S0JeiR+jadprdF3Az7DkYZ8=
+		xsrxkb2KFVyVK+JjOVMKC8iQsy8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wT3faOG5CMWqimtsQcdXnva86CqlmPe44K/zBgoKrVk=
+			nDQssL4RETyZdH6UYaWVztCK6+HOf7EI5NbbHJLbUiI=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kMAcQSp6f+s6vdfl2wHw48KBE1VB7wQScjInexqfWTQ=
+			U7qpK9pRbQIxUNchb5SkqKYd8KYqDWtLvyhn/tDpAr0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

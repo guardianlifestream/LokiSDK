@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'LokiSDK' # Name for your pod
-    s.version           = '2.0.20'
+    s.version           = '2.0.21'
     s.summary           = 'LokiSDK is a framework for location sharing'
     s.homepage          = 'https://getlifestream.com'
 

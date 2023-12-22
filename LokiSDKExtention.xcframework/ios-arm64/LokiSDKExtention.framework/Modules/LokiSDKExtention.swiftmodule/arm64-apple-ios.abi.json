@@ -2993,134 +2993,99 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 15,
-      "value": "\"\u001B[0;0m\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
-      "kind": "StringLiteral",
-      "offset": 285,
-      "length": 16,
-      "value": "\"\u001B[0;31m\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
-      "kind": "StringLiteral",
-      "offset": 324,
-      "length": 16,
-      "value": "\"\u001B[0;36m\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
-      "kind": "StringLiteral",
-      "offset": 361,
-      "length": 16,
-      "value": "\"\u001B[0;33m\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
-      "kind": "StringLiteral",
-      "offset": 404,
-      "length": 16,
-      "value": "\"\u001B[0;32m\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 481,
+      "offset": 270,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 497,
+      "offset": 286,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 308,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 481,
+      "offset": 270,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 497,
+      "offset": 286,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 308,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 481,
+      "offset": 270,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 497,
+      "offset": 286,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 308,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "Array",
-      "offset": 1414,
+      "offset": 1203,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Logging\/LokiLoggerService.swift",
       "kind": "StringLiteral",
-      "offset": 1453,
+      "offset": 1242,
       "length": 7,
       "value": "\" $$$ \""
     },
