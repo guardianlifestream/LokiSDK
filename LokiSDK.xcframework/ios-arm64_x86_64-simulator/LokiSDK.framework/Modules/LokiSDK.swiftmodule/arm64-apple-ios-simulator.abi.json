@@ -15957,6 +15957,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Loki.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29827,
+      "length": 3,
+      "value": "600"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/LokiNotification+Name.swift",
       "kind": "StringLiteral",
       "offset": 194,
