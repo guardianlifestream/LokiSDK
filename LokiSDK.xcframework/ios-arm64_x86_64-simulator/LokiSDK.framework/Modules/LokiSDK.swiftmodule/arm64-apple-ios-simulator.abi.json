@@ -16029,21 +16029,21 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1115,
+      "offset": 1162,
       "length": 38,
       "value": "\"loki_geofence_\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1152,
+      "offset": 1199,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/LokiLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1209,
+      "offset": 1256,
       "length": 14,
       "value": "\"LocationData\""
     },
