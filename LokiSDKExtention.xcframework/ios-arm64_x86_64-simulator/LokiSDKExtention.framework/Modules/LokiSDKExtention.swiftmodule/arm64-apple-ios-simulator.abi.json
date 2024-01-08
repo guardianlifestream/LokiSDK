@@ -295,6 +295,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "LokiDevice",
         "printedName": "LokiDevice",
@@ -535,6 +545,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1101,6 +1121,351 @@
         "moduleName": "LokiSDKExtention",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MlvInfo",
+        "printedName": "MlvInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isOn",
+            "printedName": "isOn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention7MlvInfoV4isOnSbvp",
+            "mangledName": "$s16LokiSDKExtention7MlvInfoV4isOnSbvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention7MlvInfoV4isOnSbvg",
+                "mangledName": "$s16LokiSDKExtention7MlvInfoV4isOnSbvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sendLocationImmediately",
+            "printedName": "sendLocationImmediately",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention7MlvInfoV23sendLocationImmediatelySbvp",
+            "mangledName": "$s16LokiSDKExtention7MlvInfoV23sendLocationImmediatelySbvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention7MlvInfoV23sendLocationImmediatelySbvg",
+                "mangledName": "$s16LokiSDKExtention7MlvInfoV23sendLocationImmediatelySbvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "correlationID",
+            "printedName": "correlationID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention7MlvInfoV13correlationIDSSSgvp",
+            "mangledName": "$s16LokiSDKExtention7MlvInfoV13correlationIDSSSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention7MlvInfoV13correlationIDSSSgvg",
+                "mangledName": "$s16LokiSDKExtention7MlvInfoV13correlationIDSSSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeStamp",
+            "printedName": "timeStamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention7MlvInfoV9timeStamp10Foundation4DateVvp",
+            "mangledName": "$s16LokiSDKExtention7MlvInfoV9timeStamp10Foundation4DateVvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention7MlvInfoV9timeStamp10Foundation4DateVvg",
+                "mangledName": "$s16LokiSDKExtention7MlvInfoV9timeStamp10Foundation4DateVvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isOn:sendLocationImmediately:correlationID:timeStamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MlvInfo",
+                "printedName": "LokiSDKExtention.MlvInfo",
+                "usr": "s:16LokiSDKExtention7MlvInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention7MlvInfoV4isOn23sendLocationImmediately13correlationID9timeStampACSb_SbSSSg10Foundation4DateVtcfc",
+            "mangledName": "$s16LokiSDKExtention7MlvInfoV4isOn23sendLocationImmediately13correlationID9timeStampACSb_SbSSSg10Foundation4DateVtcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MlvInfo",
+                "printedName": "LokiSDKExtention.MlvInfo",
+                "usr": "s:16LokiSDKExtention7MlvInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention7MlvInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16LokiSDKExtention7MlvInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention7MlvInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16LokiSDKExtention7MlvInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LokiSDKExtention7MlvInfoV",
+        "mangledName": "$s16LokiSDKExtention7MlvInfoV",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -2614,6 +2979,164 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "LokiApiManagerInterface",
+        "printedName": "LokiApiManagerInterface",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "authKey",
+            "printedName": "authKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention0A19ApiManagerInterfaceP7authKeySSSgvp",
+            "mangledName": "$s16LokiSDKExtention0A19ApiManagerInterfaceP7authKeySSSgvp",
+            "moduleName": "LokiSDKExtention",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A19ApiManagerInterfaceP7authKeySSSgvg",
+                "mangledName": "$s16LokiSDKExtention0A19ApiManagerInterfaceP7authKeySSSgvg",
+                "moduleName": "LokiSDKExtention",
+                "genericSig": "<τ_0_0 where τ_0_0 : LokiSDKExtention.LokiApiManagerInterface>",
+                "sugared_genericSig": "<Self where Self : LokiSDKExtention.LokiApiManagerInterface>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A19ApiManagerInterfaceP7authKeySSSgvs",
+                "mangledName": "$s16LokiSDKExtention0A19ApiManagerInterfaceP7authKeySSSgvs",
+                "moduleName": "LokiSDKExtention",
+                "genericSig": "<τ_0_0 where τ_0_0 : LokiSDKExtention.LokiApiManagerInterface>",
+                "sugared_genericSig": "<Self where Self : LokiSDKExtention.LokiApiManagerInterface>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A19ApiManagerInterfaceP7authKeySSSgvM",
+                "mangledName": "$s16LokiSDKExtention0A19ApiManagerInterfaceP7authKeySSSgvM",
+                "moduleName": "LokiSDKExtention",
+                "genericSig": "<τ_0_0 where τ_0_0 : LokiSDKExtention.LokiApiManagerInterface>",
+                "sugared_genericSig": "<Self where Self : LokiSDKExtention.LokiApiManagerInterface>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendLocation",
+            "printedName": "sendLocation(location:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SendLocationRequest",
+                "printedName": "LokiSDKExtention.SendLocationRequest",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention0A19ApiManagerInterfaceP12sendLocation8locationSbAA04SendG7RequestV_tYaKF",
+            "mangledName": "$s16LokiSDKExtention0A19ApiManagerInterfaceP12sendLocation8locationSbAA04SendG7RequestV_tYaKF",
+            "moduleName": "LokiSDKExtention",
+            "genericSig": "<τ_0_0 where τ_0_0 : LokiSDKExtention.LokiApiManagerInterface>",
+            "sugared_genericSig": "<Self where Self : LokiSDKExtention.LokiApiManagerInterface>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16LokiSDKExtention0A19ApiManagerInterfaceP",
+        "mangledName": "$s16LokiSDKExtention0A19ApiManagerInterfaceP",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2764,13 +3287,379 @@
         "moduleName": "LokiSDKExtention"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "LokiAPIError",
+        "printedName": "LokiAPIError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.LokiAPIError.Type) -> LokiSDKExtention.LokiAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LokiAPIError",
+                    "printedName": "LokiSDKExtention.LokiAPIError",
+                    "usr": "s:16LokiSDKExtention0A8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.LokiAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LokiAPIError",
+                        "printedName": "LokiSDKExtention.LokiAPIError",
+                        "usr": "s:16LokiSDKExtention0A8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention0A8APIErrorO7unknownyA2CmF",
+            "mangledName": "$s16LokiSDKExtention0A8APIErrorO7unknownyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "authKeyNotSet",
+            "printedName": "authKeyNotSet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.LokiAPIError.Type) -> LokiSDKExtention.LokiAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LokiAPIError",
+                    "printedName": "LokiSDKExtention.LokiAPIError",
+                    "usr": "s:16LokiSDKExtention0A8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.LokiAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LokiAPIError",
+                        "printedName": "LokiSDKExtention.LokiAPIError",
+                        "usr": "s:16LokiSDKExtention0A8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention0A8APIErrorO13authKeyNotSetyA2CmF",
+            "mangledName": "$s16LokiSDKExtention0A8APIErrorO13authKeyNotSetyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LokiAPIError",
+                "printedName": "LokiSDKExtention.LokiAPIError",
+                "usr": "s:16LokiSDKExtention0A8APIErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LokiAPIError",
+                "printedName": "LokiSDKExtention.LokiAPIError",
+                "usr": "s:16LokiSDKExtention0A8APIErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention0A8APIErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16LokiSDKExtention0A8APIErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "LokiSDKExtention",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention0A8APIErrorO9hashValueSivp",
+            "mangledName": "$s16LokiSDKExtention0A8APIErrorO9hashValueSivp",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A8APIErrorO9hashValueSivg",
+                "mangledName": "$s16LokiSDKExtention0A8APIErrorO9hashValueSivg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention0A8APIErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16LokiSDKExtention0A8APIErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16LokiSDKExtention0A8APIErrorO",
+        "mangledName": "$s16LokiSDKExtention0A8APIErrorO",
         "moduleName": "LokiSDKExtention",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LokiAPIManager",
+        "printedName": "LokiAPIManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "authKey",
+            "printedName": "authKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention0A10APIManagerC7authKeySSSgvp",
+            "mangledName": "$s16LokiSDKExtention0A10APIManagerC7authKeySSSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A10APIManagerC7authKeySSSgvg",
+                "mangledName": "$s16LokiSDKExtention0A10APIManagerC7authKeySSSgvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A10APIManagerC7authKeySSSgvs",
+                "mangledName": "$s16LokiSDKExtention0A10APIManagerC7authKeySSSgvs",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention0A10APIManagerC7authKeySSSgvM",
+                "mangledName": "$s16LokiSDKExtention0A10APIManagerC7authKeySSSgvM",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendLocation",
+            "printedName": "sendLocation(location:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SendLocationRequest",
+                "printedName": "LokiSDKExtention.SendLocationRequest",
+                "usr": "s:16LokiSDKExtention19SendLocationRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention0A10APIManagerC12sendLocation8locationSbAA04SendE7RequestV_tYaKF",
+            "mangledName": "$s16LokiSDKExtention0A10APIManagerC12sendLocation8locationSbAA04SendE7RequestV_tYaKF",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16LokiSDKExtention0A10APIManagerC",
+        "mangledName": "$s16LokiSDKExtention0A10APIManagerC",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LokiApiManagerInterface",
+            "printedName": "LokiApiManagerInterface",
+            "usr": "s:16LokiSDKExtention0A19ApiManagerInterfaceP",
+            "mangledName": "$s16LokiSDKExtention0A19ApiManagerInterfaceP"
+          }
         ]
       },
       {
@@ -2801,6 +3690,958 @@
         "moduleName": "LokiSDKExtention",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SendStatus",
+        "printedName": "SendStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.SendStatus.Type) -> LokiSDKExtention.SendStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.SendStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SendStatus",
+                        "printedName": "LokiSDKExtention.SendStatus",
+                        "usr": "s:16LokiSDKExtention10SendStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention10SendStatusO7unknownyA2CmF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO7unknownyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "mqttSend",
+            "printedName": "mqttSend",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.SendStatus.Type) -> LokiSDKExtention.SendStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.SendStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SendStatus",
+                        "printedName": "LokiSDKExtention.SendStatus",
+                        "usr": "s:16LokiSDKExtention10SendStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention10SendStatusO04mqttC0yA2CmF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO04mqttC0yA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "httpSend",
+            "printedName": "httpSend",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.SendStatus.Type) -> LokiSDKExtention.SendStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.SendStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SendStatus",
+                        "printedName": "LokiSDKExtention.SendStatus",
+                        "usr": "s:16LokiSDKExtention10SendStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention10SendStatusO04httpC0yA2CmF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO04httpC0yA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "mqttFailed",
+            "printedName": "mqttFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.SendStatus.Type) -> LokiSDKExtention.SendStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.SendStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SendStatus",
+                        "printedName": "LokiSDKExtention.SendStatus",
+                        "usr": "s:16LokiSDKExtention10SendStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention10SendStatusO10mqttFailedyA2CmF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO10mqttFailedyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "httpFailed",
+            "printedName": "httpFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.SendStatus.Type) -> LokiSDKExtention.SendStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.SendStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SendStatus",
+                        "printedName": "LokiSDKExtention.SendStatus",
+                        "usr": "s:16LokiSDKExtention10SendStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention10SendStatusO10httpFailedyA2CmF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO10httpFailedyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "httpSendEx",
+            "printedName": "httpSendEx",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.SendStatus.Type) -> LokiSDKExtention.SendStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.SendStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SendStatus",
+                        "printedName": "LokiSDKExtention.SendStatus",
+                        "usr": "s:16LokiSDKExtention10SendStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention10SendStatusO04httpC2ExyA2CmF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO04httpC2ExyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "httpFailedEx",
+            "printedName": "httpFailedEx",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.SendStatus.Type) -> LokiSDKExtention.SendStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.SendStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SendStatus",
+                        "printedName": "LokiSDKExtention.SendStatus",
+                        "usr": "s:16LokiSDKExtention10SendStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention10SendStatusO12httpFailedExyA2CmF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO12httpFailedExyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "ignored",
+            "printedName": "ignored",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.SendStatus.Type) -> LokiSDKExtention.SendStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.SendStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SendStatus",
+                        "printedName": "LokiSDKExtention.SendStatus",
+                        "usr": "s:16LokiSDKExtention10SendStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention10SendStatusO7ignoredyA2CmF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO7ignoredyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Function",
+            "name": "description",
+            "printedName": "description()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention10SendStatusO11descriptionSSyF",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO11descriptionSSyF",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDKExtention.SendStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SendStatus",
+                    "printedName": "LokiSDKExtention.SendStatus",
+                    "usr": "s:16LokiSDKExtention10SendStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention10SendStatusO8rawValueACSgs5Int16V_tcfc",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO8rawValueACSgs5Int16V_tcfc",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention10SendStatusO8rawValues5Int16Vvp",
+            "mangledName": "$s16LokiSDKExtention10SendStatusO8rawValues5Int16Vvp",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention10SendStatusO8rawValues5Int16Vvg",
+                "mangledName": "$s16LokiSDKExtention10SendStatusO8rawValues5Int16Vvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16LokiSDKExtention10SendStatusO",
+        "mangledName": "$s16LokiSDKExtention10SendStatusO",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int16",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationInfo",
+        "printedName": "LocationInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "locationId",
+            "printedName": "locationId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention12LocationInfoV10locationIdSSvp",
+            "mangledName": "$s16LokiSDKExtention12LocationInfoV10locationIdSSvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention12LocationInfoV10locationIdSSvg",
+                "mangledName": "$s16LokiSDKExtention12LocationInfoV10locationIdSSvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention12LocationInfoV10locationIdSSvs",
+                "mangledName": "$s16LokiSDKExtention12LocationInfoV10locationIdSSvs",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention12LocationInfoV10locationIdSSvM",
+                "mangledName": "$s16LokiSDKExtention12LocationInfoV10locationIdSSvM",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention12LocationInfoV8locationSo10CLLocationCvp",
+            "mangledName": "$s16LokiSDKExtention12LocationInfoV8locationSo10CLLocationCvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention12LocationInfoV8locationSo10CLLocationCvg",
+                "mangledName": "$s16LokiSDKExtention12LocationInfoV8locationSo10CLLocationCvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appMode",
+            "printedName": "appMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppMode",
+                "printedName": "LokiSDKExtention.AppMode",
+                "usr": "s:16LokiSDKExtention7AppModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention12LocationInfoV7appModeAA03AppF0Ovp",
+            "mangledName": "$s16LokiSDKExtention12LocationInfoV7appModeAA03AppF0Ovp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppMode",
+                    "printedName": "LokiSDKExtention.AppMode",
+                    "usr": "s:16LokiSDKExtention7AppModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention12LocationInfoV7appModeAA03AppF0Ovg",
+                "mangledName": "$s16LokiSDKExtention12LocationInfoV7appModeAA03AppF0Ovg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(locationId:location:appMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationInfo",
+                "printedName": "LokiSDKExtention.LocationInfo",
+                "usr": "s:16LokiSDKExtention12LocationInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppMode",
+                "printedName": "LokiSDKExtention.AppMode",
+                "usr": "s:16LokiSDKExtention7AppModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention12LocationInfoV10locationId0E07appModeACSS_So10CLLocationCAA03AppH0Otcfc",
+            "mangledName": "$s16LokiSDKExtention12LocationInfoV10locationId0E07appModeACSS_So10CLLocationCAA03AppH0Otcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(location:appMode:isMLVLocation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationInfo",
+                "printedName": "LokiSDKExtention.LocationInfo",
+                "usr": "s:16LokiSDKExtention12LocationInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppMode",
+                "printedName": "LokiSDKExtention.AppMode",
+                "usr": "s:16LokiSDKExtention7AppModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention12LocationInfoV8location7appMode13isMLVLocationACSo10CLLocationC_AA03AppG0OSbtcfc",
+            "mangledName": "$s16LokiSDKExtention12LocationInfoV8location7appMode13isMLVLocationACSo10CLLocationC_AA03AppG0OSbtcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationInfo",
+                "printedName": "LokiSDKExtention.LocationInfo",
+                "usr": "s:16LokiSDKExtention12LocationInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention12LocationInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16LokiSDKExtention12LocationInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(clientId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationInfo",
+                "printedName": "LokiSDKExtention.LocationInfo",
+                "usr": "s:16LokiSDKExtention12LocationInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention12LocationInfoV6update8clientIdACSS_tF",
+            "mangledName": "$s16LokiSDKExtention12LocationInfoV6update8clientIdACSS_tF",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LokiSDKExtention12LocationInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16LokiSDKExtention12LocationInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LokiSDKExtention12LocationInfoV",
+        "mangledName": "$s16LokiSDKExtention12LocationInfoV",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationWrapper",
+        "printedName": "LocationWrapper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationWrapper",
+                "printedName": "LokiSDKExtention.LocationWrapper",
+                "usr": "s:16LokiSDKExtention15LocationWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention15LocationWrapperV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16LokiSDKExtention15LocationWrapperV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LokiSDKExtention15LocationWrapperV",
+        "mangledName": "$s16LokiSDKExtention15LocationWrapperV",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CLLocationSourceInformationWrapper",
+        "printedName": "CLLocationSourceInformationWrapper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationSourceInformationWrapper",
+                "printedName": "LokiSDKExtention.CLLocationSourceInformationWrapper",
+                "usr": "s:16LokiSDKExtention34CLLocationSourceInformationWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention34CLLocationSourceInformationWrapperV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16LokiSDKExtention34CLLocationSourceInformationWrapperV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LokiSDKExtention34CLLocationSourceInformationWrapperV",
+        "mangledName": "$s16LokiSDKExtention34CLLocationSourceInformationWrapperV",
+        "moduleName": "LokiSDKExtention",
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
         ]
       },
       {
@@ -2872,6 +4713,947 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CLLocation",
+        "printedName": "CLLocation",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "latitude",
+                "printedName": "latitude",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO8latitudeyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO8latitudeyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "longitude",
+                "printedName": "longitude",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO9longitudeyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO9longitudeyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "altitude",
+                "printedName": "altitude",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO8altitudeyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO8altitudeyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "horizontalAccuracy",
+                "printedName": "horizontalAccuracy",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO18horizontalAccuracyyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO18horizontalAccuracyyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "verticalAccuracy",
+                "printedName": "verticalAccuracy",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO16verticalAccuracyyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO16verticalAccuracyyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "speed",
+                "printedName": "speed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO5speedyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO5speedyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "course",
+                "printedName": "course",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO6courseyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO6courseyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "timestamp",
+                "printedName": "timestamp",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO9timestampyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO9timestampyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "speedAccuracy",
+                "printedName": "speedAccuracy",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO13speedAccuracyyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO13speedAccuracyyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "courseAccuracy",
+                "printedName": "courseAccuracy",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO14courseAccuracyyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO14courseAccuracyyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Var",
+                "name": "sourceInformation",
+                "printedName": "sourceInformation",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation.CodingKeys.Type) -> CoreLocation.CLLocation.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "CoreLocation.CLLocation.CodingKeys",
+                            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO17sourceInformationyA2EmF",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO17sourceInformationyA2EmF",
+                "moduleName": "LokiSDKExtention"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLLocation.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO8rawValueSSvp",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO8rawValueSSvp",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO8rawValueSSvg",
+                    "moduleName": "LokiSDKExtention",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO11stringValueSSvp",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO11stringValueSSvp",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO11stringValueSSvg",
+                    "moduleName": "LokiSDKExtention",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLLocation.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO8intValueSiSgvp",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "LokiSDKExtention",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLLocation.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "CoreLocation.CLLocation.CodingKeys",
+                        "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:So10CLLocationC16LokiSDKExtentionE10CodingKeysO",
+            "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE10CodingKeysO",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10CLLocationC16LokiSDKExtentionE6encode2toys7Encoder_p_tKF",
+            "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE6encode2toys7Encoder_p_tKF",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)CLLocation",
+        "moduleName": "CoreLocation",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "CLLocation",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CLLocationSourceInformation",
+        "printedName": "CLLocationSourceInformation",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So27CLLocationSourceInformationC16LokiSDKExtentionE6encode2toys7Encoder_p_tKF",
+            "mangledName": "$sSo27CLLocationSourceInformationC16LokiSDKExtentionE6encode2toys7Encoder_p_tKF",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)CLLocationSourceInformation",
+        "moduleName": "CoreLocation",
+        "isOpen": true,
+        "intro_iOS": "15.0",
+        "objc_name": "CLLocationSourceInformation",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       }
@@ -3090,6 +5872,20 @@
       "value": "\" $$$ \""
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 15,
+      "value": "\"correlationId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/MLVInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 15,
+      "value": "\"correlationId\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Network\/RequestModel\/SendLocationRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
@@ -3242,6 +6038,181 @@
       "offset": 316,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 253,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 253,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 253,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1407,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/JSonEncoder+CustomISO8601Strategy.swift",

@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LokiSDKExtention
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
 import Foundation
 import OSLog
 import Swift
@@ -39,6 +40,15 @@ public struct Coordinates : Swift.Codable {
   public init(latitude: Swift.Double?, longitude: Swift.Double?)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+}
+public struct MlvInfo : Swift.Codable, Swift.Sendable {
+  public let isOn: Swift.Bool
+  public let sendLocationImmediately: Swift.Bool
+  public let correlationID: Swift.String?
+  public let timeStamp: Foundation.Date
+  public init(isOn: Swift.Bool, sendLocationImmediately: Swift.Bool, correlationID: Swift.String?, timeStamp: Foundation.Date)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public enum AppMode : Swift.Int16, Swift.Codable {
   case foreground
@@ -78,12 +88,98 @@ public struct SendLocationRequest : Swift.Codable {
   public func getLocalDateTimeString(dateTime: Foundation.Date) -> Swift.String
   @objc deinit
 }
+public protocol LokiApiManagerInterface {
+  var authKey: Swift.String? { get set }
+  #if compiler(>=5.3) && $AsyncAwait
+  func sendLocation(location: LokiSDKExtention.SendLocationRequest) async throws -> Swift.Bool
+  #endif
+}
 public protocol ILokiLoggerService {
   func logInformation(message: Swift.String)
   func logWarning(message: Swift.String)
   func logError(message: Swift.String)
   func logDebug(message: Swift.String)
 }
+public enum LokiAPIError : Swift.Error {
+  case unknown
+  case authKeyNotSet
+  public static func == (a: LokiSDKExtention.LokiAPIError, b: LokiSDKExtention.LokiAPIError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class LokiAPIManager : LokiSDKExtention.LokiApiManagerInterface {
+  public var authKey: Swift.String?
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendLocation(location: LokiSDKExtention.SendLocationRequest) async throws -> Swift.Bool
+  #endif
+  @objc deinit
+}
+public enum SendStatus : Swift.Int16, Swift.Codable {
+  case unknown
+  case mqttSend
+  case httpSend
+  case mqttFailed
+  case httpFailed
+  case httpSendEx
+  case httpFailedEx
+  case ignored
+  public func description() -> Swift.String
+  public init?(rawValue: Swift.Int16)
+  public typealias RawValue = Swift.Int16
+  public var rawValue: Swift.Int16 {
+    get
+  }
+}
+public struct LocationInfo : Swift.Codable {
+  public var locationId: Swift.String
+  public let location: CoreLocation.CLLocation
+  public let appMode: LokiSDKExtention.AppMode
+  public init(locationId: Swift.String, location: CoreLocation.CLLocation, appMode: LokiSDKExtention.AppMode)
+  public init(location: CoreLocation.CLLocation, appMode: LokiSDKExtention.AppMode, isMLVLocation: Swift.Bool = false)
+  public init(from decoder: Swift.Decoder) throws
+  public func update(clientId: Swift.String) -> LokiSDKExtention.LocationInfo
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension CoreLocation.CLLocation : Swift.Encodable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case latitude, longitude, altitude, horizontalAccuracy, verticalAccuracy, speed, course, timestamp, speedAccuracy, courseAccuracy, sourceInformation
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct LocationWrapper : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+@available(iOS 15.0, *)
+extension CoreLocation.CLLocationSourceInformation : Swift.Encodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 15.0, *)
+public struct CLLocationSourceInformationWrapper : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
 extension LokiSDKExtention.AppMode : Swift.Equatable {}
 extension LokiSDKExtention.AppMode : Swift.Hashable {}
 extension LokiSDKExtention.AppMode : Swift.RawRepresentable {}
+extension LokiSDKExtention.LokiAPIError : Swift.Equatable {}
+extension LokiSDKExtention.LokiAPIError : Swift.Hashable {}
+extension LokiSDKExtention.SendStatus : Swift.Equatable {}
+extension LokiSDKExtention.SendStatus : Swift.Hashable {}
+extension LokiSDKExtention.SendStatus : Swift.RawRepresentable {}
+extension CoreLocation.CLLocation.CodingKeys : Swift.Equatable {}
+extension CoreLocation.CLLocation.CodingKeys : Swift.Hashable {}
+extension CoreLocation.CLLocation.CodingKeys : Swift.RawRepresentable {}
