@@ -22,6 +22,11 @@ public struct LokiDevice : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+extension Foundation.Bundle {
+  public var appName: Swift.String {
+    get
+  }
+}
 public protocol ILokiDateWrapper {
   var currentDate: Foundation.Date { get }
   func getLocalDateTimeString(dateTime: Foundation.Date) -> Swift.String
@@ -40,6 +45,9 @@ public struct Coordinates : Swift.Codable {
   public init(latitude: Swift.Double?, longitude: Swift.Double?)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+}
+extension Foundation.UserDefaults {
+  public static let group: Foundation.UserDefaults?
 }
 public struct MlvInfo : Swift.Codable, Swift.Sendable {
   public let isOn: Swift.Bool

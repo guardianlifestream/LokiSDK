@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		T+Ssc32+Inpn4fgI9v8dTd8F6b0=
+		OOTK/hQn38tHhylhoGPXZoBe+/Q=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ha8Dly0gGwbWwjO5Z9B6iRrHXp0=
+		KZMTz0EcPUhHQr+QZtjT0u6MOpU=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ha8Dly0gGwbWwjO5Z9B6iRrHXp0=
+		KZMTz0EcPUhHQr+QZtjT0u6MOpU=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bj0GRhjUnhVNM0+wi035ypd295Q=
+		dET+Ks/z/buegkgbVZiImudUKDE=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		T+Ssc32+Inpn4fgI9v8dTd8F6b0=
+		OOTK/hQn38tHhylhoGPXZoBe+/Q=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kTKVNi5mQdAqnSKESzog+NAo7BQ=
+		Lf+Oj3EijGKhMQ/x0he1uv9jvE4=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kTKVNi5mQdAqnSKESzog+NAo7BQ=
+		Lf+Oj3EijGKhMQ/x0he1uv9jvE4=
 		</data>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1OPOn+LwB/XWj7APvhB63D/VVtU=
+		yjAOzjPLffxgjRL4GyUqMBJHPi8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oqU62JBQ68vJC53KXH7bfhmfCOL28g6iDwNLF6/h3fY=
+			v2LhrOudq7TRC7LAoJsJoM488J4CQFOSNf0MSoMru2U=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWOMkjSVDm2/8w4e7VzevjTnhHjp/Fd/9O0l9jC8QR8=
+			YvDz6LcwY0JUFcWcFHBrx7sxcANWDWnj/1HDW51/uSM=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -124,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWOMkjSVDm2/8w4e7VzevjTnhHjp/Fd/9O0l9jC8QR8=
+			YvDz6LcwY0JUFcWcFHBrx7sxcANWDWnj/1HDW51/uSM=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P1wLfNXGLqiN6q5nKdQkxfrsEkLsl+HL4qG2Oh3EAEY=
+			MJKUvLItRBqZrQD8xljDuh8ntLJqziJ5Cyo4aTUa0Tg=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oqU62JBQ68vJC53KXH7bfhmfCOL28g6iDwNLF6/h3fY=
+			v2LhrOudq7TRC7LAoJsJoM488J4CQFOSNf0MSoMru2U=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePhgF21MIO9iyaAp8EiiEGgb1WgjYEDmEKnX86A69tk=
+			/eSZyR0jIslxEFhvpgUlZKIK6Minp9XVx1MvOKvBet4=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePhgF21MIO9iyaAp8EiiEGgb1WgjYEDmEKnX86A69tk=
+			/eSZyR0jIslxEFhvpgUlZKIK6Minp9XVx1MvOKvBet4=
 			</data>
 		</dict>
 		<key>Modules/LokiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gcl9gnokXceb9+ixDtFzBHexEoAaqjPzFJ/Q55Pwfp8=
+			6l7s5A1i9AoPg3U7+8TLf2mptlA2CcAFyCFqAw8IYXg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

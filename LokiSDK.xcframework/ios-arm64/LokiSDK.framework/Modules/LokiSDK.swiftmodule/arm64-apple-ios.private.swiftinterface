@@ -44,6 +44,11 @@ extension Swift.String {
   public func character(_ at: Swift.Int) -> Swift.Character
   public func lastIndexOfCharacter(_ c: Swift.Character) -> Swift.Int?
 }
+extension Foundation.Bundle {
+  public var appName: Swift.String {
+    get
+  }
+}
 extension CoreLocation.CLLocation : Swift.Encodable {
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case latitude, longitude, altitude, horizontalAccuracy, verticalAccuracy, speed, course, timestamp, speedAccuracy, courseAccuracy, sourceInformation
@@ -73,6 +78,9 @@ extension CoreLocation.CLLocationSourceInformation : Swift.Encodable {
 @available(iOS 15.0, *)
 public struct CLLocationSourceInformationWrapper : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
+}
+extension Foundation.UserDefaults {
+  public static let group: Foundation.UserDefaults?
 }
 public struct CheckMlvResponse : Swift.Codable {
   public let data: Swift.Bool
