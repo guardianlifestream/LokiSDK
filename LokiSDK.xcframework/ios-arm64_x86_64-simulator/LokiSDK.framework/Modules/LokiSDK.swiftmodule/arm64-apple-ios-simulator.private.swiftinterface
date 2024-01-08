@@ -18,6 +18,23 @@ public struct LoginRequest : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public enum ObjectSavableError : Swift.String, Foundation.LocalizedError {
+  case unableToEncode
+  case noValue
+  case unableToDecode
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Foundation.UserDefaults {
+  public func setObject<Object>(_ object: Object, forKey: Swift.String) throws where Object : Swift.Encodable
+  public func getObject<Object>(forKey: Swift.String, castTo type: Object.Type) throws -> Object where Object : Swift.Decodable
+}
 public struct LokiConfiguration : Swift.Codable {
   public let iotHubHost: Swift.String
   public let locationUpdateIntervalInSeconds: Swift.Int
@@ -270,6 +287,9 @@ public struct SendLocationRequest : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+extension CoreLocation.CLLocationCoordinate2D {
+  public func regionCenters(desiredRadius: Swift.Double, individualRadius: Swift.Double, totalRegions: Swift.Int) -> [CoreLocation.CLLocationCoordinate2D]
+}
 public class LokiLoggerService : LokiSDK.ILokiLoggerService {
   public init(dateTimeWrapper: LokiSDK.ILokiDateWrapper)
   public func logDebug(message: Swift.String)
@@ -364,6 +384,9 @@ extension CoreLocation.CLLocation {
   }
   public func speedKmh() -> Swift.String?
 }
+extension CoreLocation.CLLocationCoordinate2D {
+  public func location(for bearing: Swift.Double, and distanceMeters: Swift.Double) -> CoreLocation.CLLocationCoordinate2D
+}
 @_hasMissingDesignatedInitializers public class LocationDataController : Foundation.ObservableObject {
   public func clearLocationData() -> Swift.Bool
   public func getLocationData() -> [LokiSDK.LokiLocationEntity]?
@@ -445,6 +468,9 @@ extension LokiSDK.LokiLocationEntity {
 extension LokiSDK.LokiLocationEntity : Swift.Identifiable {
   public typealias ID = Swift.String?
 }
+extension LokiSDK.ObjectSavableError : Swift.Equatable {}
+extension LokiSDK.ObjectSavableError : Swift.Hashable {}
+extension LokiSDK.ObjectSavableError : Swift.RawRepresentable {}
 extension CoreLocation.CLLocation.CodingKeys : Swift.Equatable {}
 extension CoreLocation.CLLocation.CodingKeys : Swift.Hashable {}
 extension CoreLocation.CLLocation.CodingKeys : Swift.RawRepresentable {}

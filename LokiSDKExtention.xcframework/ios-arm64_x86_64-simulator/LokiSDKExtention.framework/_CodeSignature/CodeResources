@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/LokiSDKExtention-Swift.h</key>
 		<data>
-		1sPJI+ueNdFf60qoIHBUHA+y7No=
+		LyrOlXtX2B82gAtqwl5nPWl8a0g=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Z5zoIWGTyrXumFVFwjQDi0tUdb8=
+		3jv9SOzlxoFIgzjAP2N9QuBr3W0=
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XddQ4aOSj36B69fgBa6fZhl4q+g=
+		5ZTNwSlCPvGStoTD4M5PPHOcklU=
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XddQ4aOSj36B69fgBa6fZhl4q+g=
+		5ZTNwSlCPvGStoTD4M5PPHOcklU=
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		//V9c3g98eyyVkc1xdmUnQ49dko=
+		KaT2vxl/ONuLlde7a0ArQAC9DJQ=
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Z5zoIWGTyrXumFVFwjQDi0tUdb8=
+		3jv9SOzlxoFIgzjAP2N9QuBr3W0=
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vwBDOdYa4Ar5kepdvnR15KOyOEs=
+		t52d+lW8tMAn070eerE6RQG6rA8=
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vwBDOdYa4Ar5kepdvnR15KOyOEs=
+		t52d+lW8tMAn070eerE6RQG6rA8=
 		</data>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8EcWL85DBOA+1WwJKM2u01MWY4k=
+		5Ltk2ZfjqC3ZoEzAbH27TDN1Eu4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,21 +74,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IIgFkAoXla8YqgMh+6uklE9ikEn3wkt0bslVfoh1Qto=
+			s/jhU0HAzSV/0+rP2pZidCFxqKbbndeJ/w6yJfsL5nA=
 			</data>
 		</dict>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ckJi5yqw4nbgwV/1R/BjeKDFtMx4c68BeeZUJKayjIw=
+			EnZ8zfG317MGTm2YdmVkdqUI4chWA3RInDsxVAk/iug=
 			</data>
 		</dict>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bTGCDaCMiQxCimHJbNnodBaGoE73R2lHvX1nRqk1PEw=
+			+t7E3XbZcO0xrRtdOhri5qWD7FGqe7eACg3PcbeLod4=
 			</data>
 		</dict>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bTGCDaCMiQxCimHJbNnodBaGoE73R2lHvX1nRqk1PEw=
+			+t7E3XbZcO0xrRtdOhri5qWD7FGqe7eACg3PcbeLod4=
 			</data>
 		</dict>
 		<key>Modules/LokiSDKExtention.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WQ8GeKB7gM1fCA0F6N0rLXkCIa7NzSSfjqJVxmJRFXc=
+			qcBLE/S1lprqVhsqwRBiBXVDDwfchJWH0XBVExj0kl8=
 			</data>
 		</dict>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ckJi5yqw4nbgwV/1R/BjeKDFtMx4c68BeeZUJKayjIw=
+			EnZ8zfG317MGTm2YdmVkdqUI4chWA3RInDsxVAk/iug=
 			</data>
 		</dict>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZCVHmhsIjX8C0/ALh1xl5pza5BzJPMPQ5mPJArZaDgA=
+			n4Q5JhzuTpp08AmeM/F6Q0RiAQuWKTIDLog0pZ3iTcA=
 			</data>
 		</dict>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZCVHmhsIjX8C0/ALh1xl5pza5BzJPMPQ5mPJArZaDgA=
+			n4Q5JhzuTpp08AmeM/F6Q0RiAQuWKTIDLog0pZ3iTcA=
 			</data>
 		</dict>
 		<key>Modules/LokiSDKExtention.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zr8LIiv9Vt7qMW7wWE5lTgYS+Y7VZdR5E5LYovW0AH8=
+			Z2W72mkMkfB7YapvDWDBf42tSNMEGvVuBVN4OLeK90g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

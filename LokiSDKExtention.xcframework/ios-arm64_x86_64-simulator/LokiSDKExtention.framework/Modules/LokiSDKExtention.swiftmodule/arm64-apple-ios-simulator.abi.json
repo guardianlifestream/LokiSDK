@@ -1115,8 +1115,28 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "LokiSDKExtention",
         "declAttributes": [
@@ -2865,6 +2885,319 @@
         "moduleName": "LokiSDKExtention",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObjectSavableError",
+        "printedName": "ObjectSavableError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unableToEncode",
+            "printedName": "unableToEncode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.ObjectSavableError.Type) -> LokiSDKExtention.ObjectSavableError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectSavableError",
+                    "printedName": "LokiSDKExtention.ObjectSavableError",
+                    "usr": "s:16LokiSDKExtention18ObjectSavableErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.ObjectSavableError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectSavableError",
+                        "printedName": "LokiSDKExtention.ObjectSavableError",
+                        "usr": "s:16LokiSDKExtention18ObjectSavableErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention18ObjectSavableErrorO14unableToEncodeyA2CmF",
+            "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO14unableToEncodeyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "noValue",
+            "printedName": "noValue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.ObjectSavableError.Type) -> LokiSDKExtention.ObjectSavableError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectSavableError",
+                    "printedName": "LokiSDKExtention.ObjectSavableError",
+                    "usr": "s:16LokiSDKExtention18ObjectSavableErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.ObjectSavableError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectSavableError",
+                        "printedName": "LokiSDKExtention.ObjectSavableError",
+                        "usr": "s:16LokiSDKExtention18ObjectSavableErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention18ObjectSavableErrorO7noValueyA2CmF",
+            "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO7noValueyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToDecode",
+            "printedName": "unableToDecode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDKExtention.ObjectSavableError.Type) -> LokiSDKExtention.ObjectSavableError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectSavableError",
+                    "printedName": "LokiSDKExtention.ObjectSavableError",
+                    "usr": "s:16LokiSDKExtention18ObjectSavableErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDKExtention.ObjectSavableError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectSavableError",
+                        "printedName": "LokiSDKExtention.ObjectSavableError",
+                        "usr": "s:16LokiSDKExtention18ObjectSavableErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LokiSDKExtention18ObjectSavableErrorO14unableToDecodeyA2CmF",
+            "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO14unableToDecodeyA2CmF",
+            "moduleName": "LokiSDKExtention"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention18ObjectSavableErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO16errorDescriptionSSSgvp",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention18ObjectSavableErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO16errorDescriptionSSSgvg",
+                "moduleName": "LokiSDKExtention",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDKExtention.ObjectSavableError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectSavableError",
+                    "printedName": "LokiSDKExtention.ObjectSavableError",
+                    "usr": "s:16LokiSDKExtention18ObjectSavableErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention18ObjectSavableErrorO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO8rawValueACSgSS_tcfc",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LokiSDKExtention18ObjectSavableErrorO8rawValueSSvp",
+            "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO8rawValueSSvp",
+            "moduleName": "LokiSDKExtention",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LokiSDKExtention18ObjectSavableErrorO8rawValueSSvg",
+                "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO8rawValueSSvg",
+                "moduleName": "LokiSDKExtention",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16LokiSDKExtention18ObjectSavableErrorO",
+        "mangledName": "$s16LokiSDKExtention18ObjectSavableErrorO",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -4665,6 +4998,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LokiSDKExtention",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Bundle",
         "printedName": "Bundle",
@@ -4779,6 +5122,117 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CLLocationCoordinate2D",
+        "printedName": "CLLocationCoordinate2D",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "regionCenters",
+            "printedName": "regionCenters(desiredRadius:individualRadius:totalRegions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocationCoordinate2D]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationCoordinate2D",
+                    "printedName": "CoreLocation.CLLocationCoordinate2D",
+                    "usr": "c:@S@CLLocationCoordinate2D"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22CLLocationCoordinate2DV16LokiSDKExtentionE13regionCenters13desiredRadius010individualH012totalRegionsSayABGSd_SdSitF",
+            "mangledName": "$sSo22CLLocationCoordinate2DV16LokiSDKExtentionE13regionCenters13desiredRadius010individualH012totalRegionsSayABGSd_SdSitF",
+            "moduleName": "LokiSDKExtention",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "location",
+            "printedName": "location(for:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationCoordinate2D",
+                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "usr": "c:@S@CLLocationCoordinate2D"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22CLLocationCoordinate2DV16LokiSDKExtentionE8location3for3andABSd_SdtF",
+            "mangledName": "$sSo22CLLocationCoordinate2DV16LokiSDKExtentionE8location3for3andABSd_SdtF",
+            "moduleName": "LokiSDKExtention",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@CLLocationCoordinate2D",
+        "moduleName": "CoreLocation",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UserDefaults",
         "printedName": "UserDefaults",
         "children": [
@@ -4849,6 +5303,83 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "setObject",
+            "printedName": "setObject(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So14NSUserDefaultsC16LokiSDKExtentionE9setObject_6forKeyyx_SStKSERzlF",
+            "mangledName": "$sSo14NSUserDefaultsC16LokiSDKExtentionE9setObject_6forKeyyx_SStKSERzlF",
+            "moduleName": "LokiSDKExtention",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Object where Object : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getObject",
+            "printedName": "getObject(forKey:castTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So14NSUserDefaultsC16LokiSDKExtentionE9getObject6forKey6castToxSS_xmtKSeRzlF",
+            "mangledName": "$sSo14NSUserDefaultsC16LokiSDKExtentionE9getObject6forKey6castToxSS_xmtKSeRzlF",
+            "moduleName": "LokiSDKExtention",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Object where Object : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -5672,6 +6203,72 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isValid",
+            "printedName": "isValid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So10CLLocationC16LokiSDKExtentionE7isValidSbvp",
+            "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE7isValidSbvp",
+            "moduleName": "LokiSDKExtention",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So10CLLocationC16LokiSDKExtentionE7isValidSbvg",
+                "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE7isValidSbvg",
+                "moduleName": "LokiSDKExtention",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "speedKmh",
+            "printedName": "speedKmh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10CLLocationC16LokiSDKExtentionE8speedKmhSSSgyF",
+            "mangledName": "$sSo10CLLocationC16LokiSDKExtentionE8speedKmhSSSgyF",
+            "moduleName": "LokiSDKExtention",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -6203,42 +6800,42 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 207,
       "length": 35,
       "value": "\"Unable to encode object into data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 259,
       "length": 40,
       "value": "\"No data object found for the given key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 323,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 207,
       "length": 35,
       "value": "\"Unable to encode object into data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 259,
       "length": 40,
       "value": "\"No data object found for the given key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 323,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
     },

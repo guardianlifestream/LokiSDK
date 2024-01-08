@@ -206,6 +206,319 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ObjectSavableError",
+        "printedName": "ObjectSavableError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unableToEncode",
+            "printedName": "unableToEncode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDK.ObjectSavableError.Type) -> LokiSDK.ObjectSavableError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectSavableError",
+                    "printedName": "LokiSDK.ObjectSavableError",
+                    "usr": "s:7LokiSDK18ObjectSavableErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDK.ObjectSavableError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectSavableError",
+                        "printedName": "LokiSDK.ObjectSavableError",
+                        "usr": "s:7LokiSDK18ObjectSavableErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LokiSDK18ObjectSavableErrorO14unableToEncodeyA2CmF",
+            "mangledName": "$s7LokiSDK18ObjectSavableErrorO14unableToEncodeyA2CmF",
+            "moduleName": "LokiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noValue",
+            "printedName": "noValue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDK.ObjectSavableError.Type) -> LokiSDK.ObjectSavableError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectSavableError",
+                    "printedName": "LokiSDK.ObjectSavableError",
+                    "usr": "s:7LokiSDK18ObjectSavableErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDK.ObjectSavableError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectSavableError",
+                        "printedName": "LokiSDK.ObjectSavableError",
+                        "usr": "s:7LokiSDK18ObjectSavableErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LokiSDK18ObjectSavableErrorO7noValueyA2CmF",
+            "mangledName": "$s7LokiSDK18ObjectSavableErrorO7noValueyA2CmF",
+            "moduleName": "LokiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToDecode",
+            "printedName": "unableToDecode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LokiSDK.ObjectSavableError.Type) -> LokiSDK.ObjectSavableError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectSavableError",
+                    "printedName": "LokiSDK.ObjectSavableError",
+                    "usr": "s:7LokiSDK18ObjectSavableErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LokiSDK.ObjectSavableError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectSavableError",
+                        "printedName": "LokiSDK.ObjectSavableError",
+                        "usr": "s:7LokiSDK18ObjectSavableErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LokiSDK18ObjectSavableErrorO14unableToDecodeyA2CmF",
+            "mangledName": "$s7LokiSDK18ObjectSavableErrorO14unableToDecodeyA2CmF",
+            "moduleName": "LokiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LokiSDK18ObjectSavableErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s7LokiSDK18ObjectSavableErrorO16errorDescriptionSSSgvp",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LokiSDK18ObjectSavableErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s7LokiSDK18ObjectSavableErrorO16errorDescriptionSSSgvg",
+                "moduleName": "LokiSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LokiSDK.ObjectSavableError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectSavableError",
+                    "printedName": "LokiSDK.ObjectSavableError",
+                    "usr": "s:7LokiSDK18ObjectSavableErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7LokiSDK18ObjectSavableErrorO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7LokiSDK18ObjectSavableErrorO8rawValueACSgSS_tcfc",
+            "moduleName": "LokiSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LokiSDK18ObjectSavableErrorO8rawValueSSvp",
+            "mangledName": "$s7LokiSDK18ObjectSavableErrorO8rawValueSSvp",
+            "moduleName": "LokiSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LokiSDK18ObjectSavableErrorO8rawValueSSvg",
+                "mangledName": "$s7LokiSDK18ObjectSavableErrorO8rawValueSSvg",
+                "moduleName": "LokiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7LokiSDK18ObjectSavableErrorO",
+        "mangledName": "$s7LokiSDK18ObjectSavableErrorO",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -12949,6 +13262,83 @@
         "printedName": "UserDefaults",
         "children": [
           {
+            "kind": "Function",
+            "name": "setObject",
+            "printedName": "setObject(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So14NSUserDefaultsC7LokiSDKE9setObject_6forKeyyx_SStKSERzlF",
+            "mangledName": "$sSo14NSUserDefaultsC7LokiSDKE9setObject_6forKeyyx_SStKSERzlF",
+            "moduleName": "LokiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Object where Object : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getObject",
+            "printedName": "getObject(forKey:castTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So14NSUserDefaultsC7LokiSDKE9getObject6forKey6castToxSS_xmtKSeRzlF",
+            "mangledName": "$sSo14NSUserDefaultsC7LokiSDKE9getObject6forKey6castToxSS_xmtKSeRzlF",
+            "moduleName": "LokiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Object where Object : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "group",
             "printedName": "group",
@@ -14972,6 +15362,117 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CLLocationCoordinate2D",
+        "printedName": "CLLocationCoordinate2D",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "regionCenters",
+            "printedName": "regionCenters(desiredRadius:individualRadius:totalRegions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocationCoordinate2D]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationCoordinate2D",
+                    "printedName": "CoreLocation.CLLocationCoordinate2D",
+                    "usr": "c:@S@CLLocationCoordinate2D"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22CLLocationCoordinate2DV7LokiSDKE13regionCenters13desiredRadius010individualH012totalRegionsSayABGSd_SdSitF",
+            "mangledName": "$sSo22CLLocationCoordinate2DV7LokiSDKE13regionCenters13desiredRadius010individualH012totalRegionsSayABGSd_SdSitF",
+            "moduleName": "LokiSDK",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "location",
+            "printedName": "location(for:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationCoordinate2D",
+                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "usr": "c:@S@CLLocationCoordinate2D"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22CLLocationCoordinate2DV7LokiSDKE8location3for3andABSd_SdtF",
+            "mangledName": "$sSo22CLLocationCoordinate2DV7LokiSDKE8location3for3andABSd_SdtF",
+            "moduleName": "LokiSDK",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@CLLocationCoordinate2D",
+        "moduleName": "CoreLocation",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "URL",
         "printedName": "URL",
         "children": [
@@ -15127,42 +15628,42 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 207,
       "length": 35,
       "value": "\"Unable to encode object into data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 259,
       "length": 40,
       "value": "\"No data object found for the given key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 323,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 207,
       "length": 35,
       "value": "\"Unable to encode object into data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 259,
       "length": 40,
       "value": "\"No data object found for the given key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/UserDefauls+ObjectSavable.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 323,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
     },

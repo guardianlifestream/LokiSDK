@@ -46,8 +46,14 @@ public struct Coordinates : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+extension CoreLocation.CLLocationCoordinate2D {
+  public func regionCenters(desiredRadius: Swift.Double, individualRadius: Swift.Double, totalRegions: Swift.Int) -> [CoreLocation.CLLocationCoordinate2D]
+}
 extension Foundation.UserDefaults {
   public static let group: Foundation.UserDefaults?
+}
+extension CoreLocation.CLLocationCoordinate2D {
+  public func location(for bearing: Swift.Double, and distanceMeters: Swift.Double) -> CoreLocation.CLLocationCoordinate2D
 }
 public struct MlvInfo : Swift.Codable, Swift.Sendable {
   public let isOn: Swift.Bool
@@ -88,6 +94,23 @@ public struct SendLocationRequest : Swift.Codable {
   public init(clientId: Swift.String, userId: Swift.String, deviceId: Swift.String, coordinates: LokiSDKExtention.Coordinates?, recordedAtUTC: Foundation.Date?, altitude: Swift.Double?, verticalAccuracy: Swift.Double?, horizontalAccuracy: Swift.Double?, sdkVersion: Swift.String?, speed: Swift.Double?, battery: LokiSDKExtention.Battery?, headingDirection: Swift.Double?, activity: Swift.String?, isSimulated: Swift.Bool, appMode: LokiSDKExtention.AppMode)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+}
+public enum ObjectSavableError : Swift.String, Foundation.LocalizedError {
+  case unableToEncode
+  case noValue
+  case unableToDecode
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Foundation.UserDefaults {
+  public func setObject<Object>(_ object: Object, forKey: Swift.String) throws where Object : Swift.Encodable
+  public func getObject<Object>(forKey: Swift.String, castTo type: Object.Type) throws -> Object where Object : Swift.Decodable
 }
 @_hasMissingDesignatedInitializers public class LokiDateWrapper : LokiSDKExtention.ILokiDateWrapper {
   public var currentDate: Foundation.Date {
@@ -181,9 +204,18 @@ extension CoreLocation.CLLocationSourceInformation : Swift.Encodable {
 public struct CLLocationSourceInformationWrapper : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
 }
+extension CoreLocation.CLLocation {
+  public var isValid: Swift.Bool {
+    get
+  }
+  public func speedKmh() -> Swift.String?
+}
 extension LokiSDKExtention.AppMode : Swift.Equatable {}
 extension LokiSDKExtention.AppMode : Swift.Hashable {}
 extension LokiSDKExtention.AppMode : Swift.RawRepresentable {}
+extension LokiSDKExtention.ObjectSavableError : Swift.Equatable {}
+extension LokiSDKExtention.ObjectSavableError : Swift.Hashable {}
+extension LokiSDKExtention.ObjectSavableError : Swift.RawRepresentable {}
 extension LokiSDKExtention.LokiAPIError : Swift.Equatable {}
 extension LokiSDKExtention.LokiAPIError : Swift.Hashable {}
 extension LokiSDKExtention.SendStatus : Swift.Equatable {}
