@@ -1233,6 +1233,18 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "FrameworkConstants",
+        "printedName": "FrameworkConstants",
+        "declKind": "Struct",
+        "usr": "s:7LokiSDK18FrameworkConstantsV",
+        "mangledName": "$s7LokiSDK18FrameworkConstantsV",
+        "moduleName": "LokiSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -15768,28 +15780,28 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 251,
       "length": 22,
       "value": "\"TRACKING_SERVICE_URL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 296,
+      "offset": 303,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 424,
       "length": 11,
       "value": "\"APP_GROUP\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/LokiSDK\/LokiSDK\/Supporting Files\/FrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 458,
+      "offset": 465,
       "length": 2,
       "value": "\"\""
     },

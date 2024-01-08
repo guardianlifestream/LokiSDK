@@ -50,6 +50,8 @@ public struct LokiConfiguration : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public struct FrameworkConstants {
+}
 extension Swift.String {
   public func between(_ left: Swift.String, _ right: Swift.String) -> Swift.String?
   public var length: Swift.Int {

@@ -22,6 +22,8 @@ public struct LokiDevice : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public struct FrameworkConstants {
+}
 extension Foundation.Bundle {
   public var appName: Swift.String {
     get
