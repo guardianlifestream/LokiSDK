@@ -3616,6 +3616,27 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LokiAPIManager",
+                "printedName": "LokiSDKExtention.LokiAPIManager",
+                "usr": "s:16LokiSDKExtention0A10APIManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LokiSDKExtention0A10APIManagerCACycfc",
+            "mangledName": "$s16LokiSDKExtention0A10APIManagerCACycfc",
+            "moduleName": "LokiSDKExtention",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "sendLocation",
             "printedName": "sendLocation(location:)",
@@ -3651,7 +3672,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",

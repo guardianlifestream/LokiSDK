@@ -109,8 +109,9 @@ public enum LokiAPIError : Swift.Error {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class LokiAPIManager : LokiSDKExtention.LokiApiManagerInterface {
+public class LokiAPIManager : LokiSDKExtention.LokiApiManagerInterface {
   public var authKey: Swift.String?
+  public init()
   #if compiler(>=5.3) && $AsyncAwait
   public func sendLocation(location: LokiSDKExtention.SendLocationRequest) async throws -> Swift.Bool
   #endif
